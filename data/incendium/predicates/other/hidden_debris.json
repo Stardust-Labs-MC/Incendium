@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "position": {
+      "y": {
+        "min": 64,
+        "max": 128
+      }
+    },
+    "biome": "incendium:volcanic_deltas"
+  }
+}

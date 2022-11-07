@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Hovering Inferno (Spells 7/7) \]](bold, #FF3F0D)
+[→](bold, gold) [Last: Dash](#E85302, run="/function incendium:hovering_inferno/spell/dash/last/main")
+[→](bold, gold) [Last: Shulker](#FF870F, run="/function incendium:hovering_inferno/spell/shulker/last")
+
+[→](bold, gold) [Last: Prepare](#E85302, run="/execute as @e[type=blaze, tag=in.hovering_inferno] at @s run function incendium:hovering_inferno/spell/last_spell/prepare")
+[→](bold, gold) [Last: Activate](#FF870F, run="/execute as @e[type=blaze, tag=in.hovering_inferno] at @s run function incendium:hovering_inferno/spell/last_spell/main")
+
+[→](bold, gold) [Last: Clear](#E85302, run="/function incendium:hovering_inferno/spell/last_spell/clear")
+[← Back](bold, #FF3F0D, run="/function incendium:admin/menu/inferno/spell/6")  [|](bold, gray)  [Inferno →](bold, #FF3F0D, run="/function incendium:admin/menu/inferno/main")

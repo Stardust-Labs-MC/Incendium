@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "polished_basalt"
+    },
+    "title": {
+      "translate": "Hellfire Mantle"
+    },
+    "description": {
+      "translate": "Enter the chaotic Volcanic Deltas"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:root",
+  "criteria": {
+    "incendium:volcanic_deltas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "incendium:volcanic_deltas",
+            "player": {
+              "location": {
+                "biome": "incendium:volcanic_deltas"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

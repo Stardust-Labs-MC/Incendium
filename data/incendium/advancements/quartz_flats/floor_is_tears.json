@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "quartz_block"
+    },
+    "title": {
+      "translate": "The Floor is Tears"
+    },
+    "description": {
+      "translate": "Brave the Quartz Flats' frozen lava seas"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:quartz_flats/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": 32
+            },
+            "biome": "incendium:quartz_flats",
+            "player": {
+              "location": {
+                "position": {
+                  "y": 32
+                },
+                "biome": "incendium:quartz_flats"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

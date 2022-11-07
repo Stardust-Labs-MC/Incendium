@@ -1,0 +1,16 @@
+{
+	"values": [
+		"#minecraft:arrows",
+		"minecraft:potion",
+		"minecraft:item",
+		"minecraft:marker",
+		"minecraft:area_effect_cloud",
+		"minecraft:fireball",
+		"minecraft:small_fireball",
+		"minecraft:armor_stand",
+		"minecraft:falling_block",
+		"minecraft:trident",
+		"minecraft:ender_pearl",
+		"minecraft:snowball"
+	]
+}

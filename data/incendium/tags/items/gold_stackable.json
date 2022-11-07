@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:gold_ores",
+    "minecraft:gold_block",
+    "minecraft:gilded_blackstone",
+    "minecraft:light_weighted_pressure_plate",
+    "minecraft:powered_rail",
+    "minecraft:gold_ingot",
+    "minecraft:bell",
+    "minecraft:clock",
+    "minecraft:golden_carrot",
+    "minecraft:glistering_melon_slice",
+    "minecraft:golden_apple"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "structures": [
+    {
+      "structure": "incendium:quartz_kitchen",
+      "weight": 1
+    },
+    {
+      "structure": "incendium:abandoned_tower",
+      "weight": 1
+    },
+    {
+      "structure": "incendium:pipeline",
+      "weight": 1
+    },
+    {
+      "structure": "incendium:piglin_village",
+      "weight": 1
+    },
+    {
+      "structure": "incendium:infernal_altar",
+      "weight": 1
+    },
+    {
+      "structure": "incendium:ruined_lab",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 399125,
+    "exclusion_zone": {
+      "other_set": "incendium:greater_structures",
+      "chunk_count": 16
+    },
+    "spacing": 24,
+    "separation": 12
+  }
+}
+

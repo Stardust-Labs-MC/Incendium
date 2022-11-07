@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "blackstone"
+    },
+    "title": {
+      "translate": "Ancient Battlefield"
+    },
+    "description": {
+      "translate": "Enter the Withered Forest, ancestral battleground of the Piglins and Wither Skeletons"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "incendium:withered_forest",
+            "player": {
+              "location": {
+                "biome": "incendium:withered_forest"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

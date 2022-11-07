@@ -1,0 +1,21 @@
+name: Incendium
+version: '5.0.5'
+description: "Incendium - Nether Expansion"
+
+require:
+  - beet.contrib.dbg
+
+# output: out
+
+data_pack:
+  load:
+    - .
+  render:
+    functions:
+      - incendium:*
+
+ignore: 
+  - out
+  - dist
+  - assets
+  

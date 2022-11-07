@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:jigsaw"
+    },
+    "addition": {
+        "item": "minecraft:elytra"
+    },
+    "result": {
+        "item": "minecraft:elytra"
+    }
+}

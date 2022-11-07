@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Spawn (1/2) \]](bold, #FF3F0D)
+[→](bold, gold) [All Castle](#FF870F, run="/function incendium:admin/spawn/castle/all")
+[→](bold, gold) [Alchemist](#E85302, run="/function incendium:admin/spawn/castle/alchemist")
+[→](bold, gold) [Archer](#FF870F, run="/function incendium:admin/spawn/castle/archer")
+[→](bold, gold) [Blacksmith](#E85302, run="/function incendium:admin/spawn/castle/blacksmith")
+[→](bold, gold) [Paratrooper](#FF870F, run="/function incendium:admin/spawn/castle/paratrooper")
+[→](bold, gold) [Pyro](#E85302, run="/function incendium:admin/spawn/castle/pyro")
+[→](bold, gold) [Scout](#FF870F, run="/function incendium:admin/spawn/castle/scout")
+[← Home](bold, #FF3F0D, run="/function incendium:admin/menu")  [|](bold, gray)  [Next →](bold, #FF3F0D, run="/function incendium:admin/menu/spawn/2")

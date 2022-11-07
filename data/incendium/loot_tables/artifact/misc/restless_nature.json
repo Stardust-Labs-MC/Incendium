@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "A seed infused by spirits",
+                  "color": "#169e7e",
+                  "italic": true
+                },
+                {
+                  "text": "with a final wish to regrow",
+                  "color": "#169e7e",
+                  "italic": true
+                },
+                {
+                  "text": "the lost nature of the Nether",
+                  "color": "#169e7e",
+                  "italic": true
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Restless Nature",
+                "color": "#137682",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1450404,incendium:{item:'restless_nature'}}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

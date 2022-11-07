@@ -1,0 +1,2 @@
+function incendium:hovering_inferno/altar/summon
+function incendium:hovering_inferno/summon

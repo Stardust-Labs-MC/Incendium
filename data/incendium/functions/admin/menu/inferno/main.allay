@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Hovering Inferno (Main) \]](bold, #FF3F0D)
+[→](bold, gold) [Spawn](#FF870F, run="/function incendium:admin/spawn/hovering_inferno")
+[→](bold, gold) [Spawn: Phase 2](#FF870F, run="/function incendium:admin/spawn/hovering_inferno/phase_2")
+[→](bold, gold) [End](#E85302, run="/function incendium:hovering_inferno/end")
+[→](bold, gold) [End Badly](#FF870F, run="/function incendium:hovering_inferno/end/bad")
+[→](bold, gold) [Spell Debug: On](#E85302, run="/tag @s add in.admin")
+[→](bold, gold) [Spell Debug: Off](#FF870F, run="/tag @s remove in.admin")
+
+[← Home](bold, #FF3F0D, run="/function incendium:admin/menu")  [|](bold, gray)  [Manual Spells →](bold, #FF3F0D, run="/function incendium:admin/menu/inferno/spell/1")

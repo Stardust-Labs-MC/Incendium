@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "chainmail_chestplate",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": {
+      "translate": "Ghostbuster"
+    },
+    "description": {
+      "translate": "Put on some chain armor and use it to dispel a restless spirit"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:withered_forest/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

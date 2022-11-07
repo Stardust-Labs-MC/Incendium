@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "incendium:inverted_forest",
+    "incendium:weeping_valley",
+    "incendium:infernal_dunes",
+    "incendium:toxic_heap"
+  ]
+}

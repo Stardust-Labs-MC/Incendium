@@ -1,0 +1,41 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "translate": "A pair of armored wings",
+          "color": "#ff1234",
+          "italic": true
+        },
+        {
+          "translate": "forged from the scraps",
+          "color": "#ff1234",
+          "italic": true
+        },
+        {
+          "translate": "of the Hovering Inferno's shields",
+          "color": "#ff1234",
+          "italic": true
+        },
+        "",
+        {
+          "translate": "Incendium",
+          "color": "#FF8000",
+          "italic": true
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_name",
+      "name": {
+        "translate": "Infernal Wings",
+        "color": "#ff3333",
+        "italic": false
+      }
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:1450201,incendium:{item:'infernal_wings'}}"
+    }
+  ]

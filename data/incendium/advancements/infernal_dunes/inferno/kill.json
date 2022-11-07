@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "jigsaw",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": {
+      "translate": "Fallen to Ashes"
+    },
+    "description": {
+      "translate": "Survive the Inferno's last spell and claim your reward"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/inferno/run",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

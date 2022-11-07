@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "redstone"
+    },
+    "title": {
+      "translate": "Light-Sensitive"
+    },
+    "description": {
+      "translate": "Kill one of the odd Desert Blazes native to the Infernal Dunes"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze",
+          "nbt": "{Tags:[\"in.dune_blaze\"]}",
+          "location": {
+            "biome": "incendium:infernal_dunes"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "experience_bottle"
+    },
+    "title": {
+      "translate": "Apparitions"
+    },
+    "description": {
+      "translate": "Kill a restless spirit"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:withered_forest/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vex",
+          "nbt": "{Tags:[\"in.spirit\"]}"
+        }
+      }
+    }
+  }
+}

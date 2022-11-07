@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "splash_potion",
+      "nbt": "{Potion: \"minecraft:strong_harming\"}"
+    },
+    "title": {
+      "translate": "Alchemical Experiments"
+    },
+    "description": {
+      "translate": "The piglin's experiments backfired leading to a dangerous situation"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:misc/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "incendium:ruined_lab"
+          }
+        }
+      }
+    }
+  }
+}

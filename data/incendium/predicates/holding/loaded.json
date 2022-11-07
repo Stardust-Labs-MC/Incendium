@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "incendium:holding/loaded/offhand"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "incendium:holding/loaded/mainhand"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Give (4/5) \]](bold, #FF3F0D)
+[→](bold, gold) [Warping Witherblade](#E85302, run="/function incendium:admin/give/warping_witherblade")
+[→](bold, gold) [Withersbane](#FF870F, run="/function incendium:admin/give/withersbane")
+[→](bold, gold) [Infernal Wings](#E85302, run="/function incendium:admin/give/infernal_wings")
+[→](bold, gold) [Inferno Kit 1](#FF870F, run="/function incendium:admin/give/inferno_kit/1")
+[→](bold, gold) [Inferno Kit 2](#E85302, run="/function incendium:admin/give/inferno_kit/2")
+[→](bold, gold) [Inferno Kit 3](#FF870F, run="/function incendium:admin/give/inferno_kit/3")
+[→](bold, gold) [Scroll of Returning](#E85302, run="/function incendium:admin/give/scroll_of_returning")
+[← Back](bold, #FF3F0D, run="/function incendium:admin/menu/give/3")  [|](bold, gray)  [Next →](bold, #FF3F0D, run="/function incendium:admin/menu/give/5")

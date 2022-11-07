@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "smooth_quartz"
+    },
+    "title": {
+      "translate": "Hellish Paradise"
+    },
+    "description": {
+      "translate": "Beware the beautiful and deadly Quartz Flats"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "incendium:quartz_flats",
+            "player": {
+              "location": {
+                "biome": "incendium:quartz_flats"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

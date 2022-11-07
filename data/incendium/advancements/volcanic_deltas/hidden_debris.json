@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ancient_debris"
+    },
+    "title": {
+      "translate": "Treacherous Heights"
+    },
+    "description": {
+      "translate": "Mine the exposed ancient debris in the height of the Volcanic Deltas"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "incendium:volcanic_deltas/root",
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "ancient_debris"
+      }
+    }
+  }
+}

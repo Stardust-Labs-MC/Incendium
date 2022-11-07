@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "barrel"
+    },
+    "title": {
+      "translate": "Plumber's Plunder"
+    },
+    "description": {
+      "translate": "Retrieve a Pipeline's hidden treasure"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/pipeline/kill_sentry",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:steam/treasure"
+      }
+    }
+  }
+}

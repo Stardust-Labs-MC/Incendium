@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Spawn (2/2) \]](bold, #FF3F0D)
+[→](bold, gold) [All Castle Knight](#FF870F, run="/function incendium:admin/spawn/castle/knight/all")
+[→](bold, gold) [Sanctum Guardian](#E85302, run="/function incendium:admin/spawn/sanctum/guardian")
+[→](bold, gold) [Pipeline Sentry](#FF870F, run="/function incendium:admin/spawn/pipeline_sentry")
+[→](bold, gold) [Ghastling](#E85302, run="/function incendium:admin/spawn/ghastling")
+
+
+
+[← Back](bold, #FF3F0D, run="/function incendium:admin/menu/spawn/1")  [|](bold, gray)  [Home →](bold, #FF3F0D, run="/function incendium:admin/menu")

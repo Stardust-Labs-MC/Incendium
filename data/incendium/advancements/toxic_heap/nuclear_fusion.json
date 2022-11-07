@@ -1,0 +1,63 @@
+{
+  "rewards": {
+    "experience": 100
+  },
+  "display": {
+    "icon": {
+      "item": "slime_block",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": {
+      "translate": "Pocket Edition Alpha"
+    },
+    "description": {
+      "translate": "Loot a Nether Reactor"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:toxic_heap/root",
+  "criteria": {
+    "incendium:office_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/office_treasure"
+      }
+    },
+    "incendium:office": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/office"
+      }
+    },
+    "incendium:junk": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/junk"
+      }
+    },
+    "incendium:treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/treasure"
+      }
+    },
+    "incendium:waste": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/waste"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "incendium:waste",
+      "incendium:junk",
+      "incendium:office",
+      "incendium:office_treasure",
+      "incendium:treasure"
+    ]
+  ]
+}

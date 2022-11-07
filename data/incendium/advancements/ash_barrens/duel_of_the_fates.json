@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "crossbow"
+    },
+    "title": {
+      "translate": "Duel of the Fates"
+    },
+    "description": {
+      "translate": "Give a Sentry a taste of its own medicine"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "incendium:ash_barrens/enter_castle",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "ancient_debris"
+      }
+    }
+  }
+}
