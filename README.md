@@ -10,6 +10,7 @@ Incendium is a datapack that completely revamps the nether, way more than what M
 - Incendium has an [Optional Resource Pack](https://modrinth.com/resourcepack/incendium-optional-resourcepack)! This is __not__ required, but it allows all items to have their own beautiful textures.
 - Incendium is **not** compatible with Amplified Nether
 - Do not add this to an existing nether - reset yours first, or use a new world
+- View the structures and biomes per seed using [jacobsjo](https://github.com/jacobsjo)'s [Minecraft Datapack Map](https://map.jacobsjo.eu/)
 
 ## Description
 ### Biomes
