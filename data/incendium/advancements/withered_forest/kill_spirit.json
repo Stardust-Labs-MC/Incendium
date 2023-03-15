@@ -4,10 +4,10 @@
       "item": "experience_bottle"
     },
     "title": {
-      "translate": "Apparitions"
+      "translate": "%1$s%4733088$s","with":["Apparitions",{"translate":"incendium.advancement.withered_forest.kill_spirit.title"}]
     },
     "description": {
-      "translate": "Kill a restless spirit"
+      "translate": "%1$s%4733088$s","with":["Kill a restless spirit",{"translate":"incendium.advancement.withered_forest.kill_spirit.desc"}]
     },
     "frame": "goal",
     "show_toast": true,

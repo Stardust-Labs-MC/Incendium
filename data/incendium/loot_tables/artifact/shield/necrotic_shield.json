@@ -29,18 +29,18 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "Reacts to attacks with",
+                  "translate": "%1$s%4733088$s","with":["Reacts to attacks with",{"translate":"incendium.item.necrotic_shield.desc1"}],
                   "color": "#884444",
                   "italic": true
                 },
                 {
-                  "translate": "an explosion of death",
+                  "translate": "%1$s%4733088$s","with":["an explosion of death",{"translate":"incendium.item.necrotic_shield.desc2"}],
                   "color": "#884444",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -51,7 +51,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate": "Necrotic Shield",
+                "translate": "%1$s%4733088$s","with":["Necrotic Shield",{"translate":"incendium.item.necrotic_shield.name"}],
                 "italic": false,
                 "color": "#993333"
               }

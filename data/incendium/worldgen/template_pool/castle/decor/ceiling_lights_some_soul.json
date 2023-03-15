@@ -59,7 +59,8 @@
     {
       "weight": 10,
       "element": {
-        "element_type": "minecraft:empty_pool_element"
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
       }
     }
   ]

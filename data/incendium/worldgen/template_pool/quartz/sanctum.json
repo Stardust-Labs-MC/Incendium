@@ -5,7 +5,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "incendium:sanctum",
+        "location": "incendium:quartz_flats/sanctum",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "book",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -32,13 +32,21 @@
         {
           "type": "minecraft:loot_table",
           "name": "incendium:artifact/tool/torch_of_lunacy",
-          "weight": 1,
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.08
+              "chance": 0.7
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"in.prime_sentry\"]}"
+          }
         }
       ]
     }

@@ -34,11 +34,4 @@ execute store result storage incendium:temp bow.CustomModelData int 1 run scoreb
 item modify entity @s[scores={in.trailblazer=40..},predicate=incendium:holding/trailblazer/mainhand] weapon.mainhand incendium:trailblazer/update
 item modify entity @s[scores={in.trailblazer=40..},predicate=incendium:holding/trailblazer/offhand] weapon.offhand incendium:trailblazer/update
 
-
-# execute store result score $attr in.dummy run attribute @s minecraft:generic.movement_speed get 1000
-
-# tellraw @a {"score": {"name": "$zoom", "objective": "in.dummy"}}
-# tellraw @a {"score": {"name": "$attr", "objective": "in.dummy"}}
-# tellraw @a ""
-
 tag @s add in.trailblazer_fix

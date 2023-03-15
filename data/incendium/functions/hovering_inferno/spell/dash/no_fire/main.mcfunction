@@ -1,6 +1,6 @@
 # no fire dash
 
-tellraw @a[tag=in.admin] "  Dash Attack -- No Fire"
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Dash: No Fire",{"translate":"incendium.inferno.spell.dash.no_fire"}]}
 
 scoreboard players set $dash in.inferno 0
 

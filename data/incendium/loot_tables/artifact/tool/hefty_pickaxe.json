@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Hefty Pickaxe",
+                "translate": "%1$s%4733088$s","with":["Hefty Pickaxe",{"translate":"incendium.item.hefty_pickaxe.name"}],
                 "color": "#990025",
                 "italic": false
               }
@@ -19,13 +19,13 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "A nether-oriented excavator",
+                  "translate": "%1$s%4733088$s","with":["A nether-oriented excavator",{"translate":"incendium.item.hefty_pickaxe.desc1"}],
                   "color": "#880012",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }

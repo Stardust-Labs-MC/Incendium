@@ -5,7 +5,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "incendium:steam/small_v",
+        "location": "incendium:pipeline/small_v",
         "processors": "incendium:pipe_small",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "incendium:steam/small_v_tall",
+        "location": "incendium:pipeline/small_v_tall",
         "processors": "incendium:pipe_small",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "incendium:steam/small_hv",
+        "location": "incendium:pipeline/small_hv",
         "processors": "incendium:pipe_small",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "incendium:steam/small_vh",
+        "location": "incendium:pipeline/small_vh",
         "processors": "incendium:pipe_small",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -41,7 +41,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "incendium:steam/small_t_hv",
+        "location": "incendium:pipeline/small_t_hv",
         "processors": "incendium:pipe_small",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -50,7 +50,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "incendium:steam/small_t_vh",
+        "location": "incendium:pipeline/small_t_vh",
         "processors": "incendium:pipe_small",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

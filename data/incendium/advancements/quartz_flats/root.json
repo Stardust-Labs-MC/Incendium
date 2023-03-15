@@ -4,10 +4,10 @@
       "item": "smooth_quartz"
     },
     "title": {
-      "translate": "Hellish Paradise"
+      "translate": "%1$s%4733088$s","with":["Hellish Paradise",{"translate":"incendium.advancement.quartz_flats.root.title"}]
     },
     "description": {
-      "translate": "Beware the beautiful and deadly Quartz Flats"
+      "translate": "%1$s%4733088$s","with":["Beware the beautiful and deadly Quartz Flats",{"translate":"incendium.advancement.quartz_flats.root.desc"}]
     },
     "frame": "task",
     "show_toast": true,

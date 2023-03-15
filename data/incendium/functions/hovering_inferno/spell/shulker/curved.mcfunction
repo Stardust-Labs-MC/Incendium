@@ -1,6 +1,6 @@
 # shulker curved
 
-tellraw @a[tag=in.admin] "  Shulker Attack -- Curved"
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Shulker: Curved",{"translate":"incendium.inferno.spell.shulker.curved"}]}
 
 scoreboard players add $spell_card in.inferno 1
 

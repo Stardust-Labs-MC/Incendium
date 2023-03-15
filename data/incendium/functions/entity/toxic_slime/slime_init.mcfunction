@@ -1,7 +1,7 @@
 # from: entity/mobs/init
 # @s: toxic slime
 
-data modify entity @s CustomName set value {"text":"Toxic Slime","color":"green"}
+data modify entity @s CustomName set value '{"translate": "%1$s%4733088$s","with":["Toxic Slime",{"translate":"incendium.mob.misc.toxic.name"}],"color":"green"}'
 team join in.noname @s
 
 attribute @s generic.movement_speed base set 1.1

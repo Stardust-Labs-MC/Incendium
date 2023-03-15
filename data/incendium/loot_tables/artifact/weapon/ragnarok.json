@@ -12,18 +12,18 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "The longer you hold back the bow,",
+                  "translate": "%1$s%4733088$s","with":["The longer you hold back the bow,",{"translate":"incendium.item.ragnarok.desc1"}],
                   "color": "#ABC4B8",
                   "italic": true
                 },
                 {
-                  "translate": "the more powerful the lightning you create",
+                  "translate": "%1$s%4733088$s","with":["the more powerful the lightning you create",{"translate":"incendium.item.ragnarok.desc2"}],
                   "color": "#ABC4B8",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -35,7 +35,7 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "translate": "Ragnarok",
+                  "translate": "%1$s%4733088$s","with":["Ragnarok",{"translate":"incendium.item.ragnarok.name"}],
                   "color": "#CCEBDB",
                   "italic": false
                 }

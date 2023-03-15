@@ -5,7 +5,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "incendium:quartz_kitchen",
+        "location": "incendium:quartz_flats/quartz_kitchen",
         "processors": "minecraft:bastion_generic_degradation",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

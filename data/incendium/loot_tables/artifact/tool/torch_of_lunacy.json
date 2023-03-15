@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Torch of Lunacy",
+                "translate": "%1$s%4733088$s","with":["Torch of Lunacy",{"translate":"incendium.item.lunacy_torch.name"}],
                 "color": "#aaccff",
                 "italic": false
               }
@@ -20,23 +20,23 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "Emits a strange light which",
+                  "translate": "%1$s%4733088$s","with":["Emits a strange light which",{"translate":"incendium.item.lunacy_torch.desc1"}],
                   "color": "#aaffcc",
                   "italic": true
                 },
                 {
-                  "translate": "blinds nearby desert blazes",
+                  "translate": "%1$s%4733088$s","with":["blinds nearby desert blazes",{"translate":"incendium.item.lunacy_torch.desc2"}],
                   "color": "#aaffcc",
                   "italic": true
                 },
                 {
-                  "translate": "if kept in your inventory",
+                  "translate": "%1$s%4733088$s","with":["if kept in your inventory",{"translate":"incendium.item.lunacy_torch.desc3"}],
                   "color": "#aaffcc",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }

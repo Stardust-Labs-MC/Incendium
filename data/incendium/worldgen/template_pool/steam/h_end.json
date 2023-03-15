@@ -5,7 +5,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "incendium:steam/small_h_end",
+        "location": "incendium:pipeline/small_h_end",
         "processors": "incendium:pipe_small",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

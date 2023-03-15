@@ -37,6 +37,7 @@ scoreboard objectives add in.frozen dummy
 scoreboard objectives add in.shielding dummy
 scoreboard objectives add in.use_map minecraft.used:minecraft.map
 scoreboard objectives add in.use_snowball minecraft.used:minecraft.snowball
+scoreboard objectives add in.restless_nature dummy
 scoreboard objectives add in.scouts_helmet dummy
 
 scoreboard objectives add in.castle_id dummy
@@ -106,6 +107,8 @@ team modify in.noname nametagVisibility never
 team modify in.noname color yellow
 
 scoreboard players set %shulker.steps in.constants 30
+scoreboard players set $sentry_lives in.dummy 0
+scoreboard objectives add in.sentry_totems dummy
 
 # gamerules
 execute store result score %mob.griefing in.constants run gamerule mobGriefing

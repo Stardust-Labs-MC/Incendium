@@ -19,8 +19,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
             }
           ]
         },
@@ -30,8 +30,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:regeneration\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
             }
           ]
         },
@@ -41,8 +41,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing"
             }
           ]
         },
@@ -52,8 +52,8 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:long_slowness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:slowness"
             }
           ]
         },
@@ -63,8 +63,8 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:weakness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:weakness"
             }
           ]
         },
@@ -74,8 +74,8 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_harming\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_harming"
             }
           ]
         },
@@ -85,13 +85,14 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:poison\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:poison"
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
+          "weight": 1,
           "name": "incendium:castle/base/rare_potion"
         }
       ]

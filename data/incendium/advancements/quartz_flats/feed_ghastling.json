@@ -4,10 +4,10 @@
       "item": "minecraft:fire_charge"
     },
     "title": {
-      "translate": "Feed the Beast"
+      "translate": "%1$s%4733088$s","with":["Feed the Beast",{"translate":"incendium.advancement.quartz_flats.feed_ghastling.title"}]
     },
     "description": {
-      "translate": "Feed a Ghastling its odd favorite food - fire charges - to toggle it following you"
+      "translate": "%1$s%4733088$s","with":["Feed a Ghastling its odd favorite food - fire charges - to toggle it following you",{"translate":"incendium.advancement.quartz_flats.feed_ghastling.desc"}]
     },
     "frame": "task",
     "show_toast": true,

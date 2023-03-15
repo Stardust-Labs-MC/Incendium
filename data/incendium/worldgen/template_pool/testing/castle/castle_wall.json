@@ -5,7 +5,7 @@
     {
       "weight": 150,
       "element": {
-        "location": "incendium:testing/castle/wall_tower",
+        "location": "incendium:testing/castle/walls/wall_tower",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 150,
       "element": {
-        "location": "incendium:testing/castle/wall_tower2",
+        "location": "incendium:testing/castle/walls/wall_tower2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

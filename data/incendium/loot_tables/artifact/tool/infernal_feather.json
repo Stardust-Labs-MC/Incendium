@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Infernal Feather",
+                "translate": "%1$s%4733088$s","with":["Infernal Feather",{"translate":"incendium.item.infernal_feather.name"}],
                 "color": "#ff3333",
                 "italic": false
               }
@@ -45,23 +45,23 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "The strong piece of scrap",
+                  "translate": "%1$s%4733088$s","with":["The strong piece of scrap",{"translate":"incendium.item.infernal_feather.desc1"}],
                   "color": "#ff1234",
                   "italic": true
                 },
                 {
-                  "translate": "forged from the remains",
+                  "translate": "%1$s%4733088$s","with":["forged from the remains",{"translate":"incendium.item.infernal_feather.desc2"}],
                   "color": "#ff1234",
                   "italic": true
                 },
                 {
-                  "translate": "of the Hovering Inferno's shields",
+                  "translate": "%1$s%4733088$s","with":["of the Hovering Inferno's shields",{"translate":"incendium.item.infernal_wings.desc3"}],
                   "color": "#ff1234",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }

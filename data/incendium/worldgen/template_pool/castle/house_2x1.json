@@ -59,7 +59,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "incendium:castle/roof_2x1_1",
+        "location": "incendium:castle/roofs/roof_2x1_1",
         "processors": "incendium:castle_floor",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -68,7 +68,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "incendium:castle/roof_2x1_2",
+        "location": "incendium:castle/roofs/roof_2x1_2",
         "processors": "incendium:castle_floor",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -77,7 +77,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "incendium:castle/roof_2x1_3",
+        "location": "incendium:castle/roofs/roof_2x1_3",
         "processors": "incendium:castle_floor",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -86,7 +86,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "incendium:castle/roof_2x1_4",
+        "location": "incendium:castle/roofs/roof_2x1_4",
         "processors": "incendium:castle_floor",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

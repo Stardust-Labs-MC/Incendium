@@ -8,10 +8,10 @@
       "nbt": "{Enchantments:[]}"
     },
     "title": {
-      "translate": "Pocket Edition Alpha"
+      "translate": "%1$s%4733088$s","with":["Pocket Edition Alpha",{"translate":"incendium.advancement.toxic_heap.nuclear_fusion.title"}]
     },
     "description": {
-      "translate": "Loot a Nether Reactor"
+      "translate": "%1$s%4733088$s","with":["Loot a Nether Reactor",{"translate":"incendium.advancement.toxic_heap.nuclear_fusion.desc"}]
     },
     "frame": "goal",
     "show_toast": true,

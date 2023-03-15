@@ -18,23 +18,23 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "Turns spectral arrows into",
+                  "translate": "%1$s%4733088$s","with":["Turns spectral arrows into",{"translate":"incendium.item.firestorm.desc1"}],
                   "color": "#0077bb",
                   "italic": true
                 },
                 {
-                  "translate": "a slow, powerful attack.",
+                  "translate": "%1$s%4733088$s","with":["a slow, powerful attack.",{"translate":"incendium.item.sentrys_wrath.desc2"}],
                   "color": "#0077bb",
                   "italic": true
                 },
                 {
-                  "translate": "Beware the cooldown.",
+                  "translate": "%1$s%4733088$s","with":["Beware the cooldown.",{"translate":"incendium.item.sentrys_wrath.desc3"}],
                   "color": "#0077bb",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -44,7 +44,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate": "Sentry's Wrath",
+                "translate": "%1$s%4733088$s","with":["Sentry's Wrath",{"translate":"incendium.item.sentrys_wrath.name"}],
                 "color": "#33ccff",
                 "italic": false
               }

@@ -7,6 +7,7 @@ function incendium:castle/1s
 execute as @a at @s run function incendium:player/1s
 
 execute as @e[type=blaze,tag=in.dune_blaze] at @s run function incendium:entity/dune_blaze/1s
+execute as @e[type=blaze,tag=in.sentry] at @s run function incendium:entity/sentry/1s
 
 effect give @e[type=piglin,predicate=incendium:biome/toxic_heap] poison 10 1
 

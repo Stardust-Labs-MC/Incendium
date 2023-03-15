@@ -4,10 +4,10 @@
       "item": "ghast_tear"
     },
     "title": {
-      "translate": "Ghast Buster"
+      "translate": "%1$s%4733088$s","with":["Ghast Buster",{"translate":"incendium.advancement.quartz_flats.ghast_buster.title"}]
     },
     "description": {
-      "translate": "Kill a ghast on its home turf above the frozen lava seas"
+      "translate": "%1$s%4733088$s","with":["Kill a ghast on its home turf above the frozen lava seas",{"translate":"incendium.advancement.quartz_flats.ghast_buster.desc"}]
     },
     "frame": "goal",
     "show_toast": true,

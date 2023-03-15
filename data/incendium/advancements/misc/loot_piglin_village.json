@@ -4,10 +4,10 @@
       "item": "golden_pickaxe"
     },
     "title": {
-      "translate": "Piglin Pillage"
+      "translate": "%1$s%4733088$s","with":["Piglin Pillage",{"translate":"incendium.advancement.misc.loot_piglin_village.title"}]
     },
     "description": {
-      "translate": "Steal some loot from a Piglin Village"
+      "translate": "%1$s%4733088$s","with":["Steal some loot from a Piglin Village",{"translate":"incendium.advancement.misc.loot_piglin_village.desc"}]
     },
     "frame": "goal",
     "show_toast": true,

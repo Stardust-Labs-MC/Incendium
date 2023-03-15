@@ -5,7 +5,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "incendium:pipe_small",
+        "location": "incendium:pipeline/large_v",
         "processors": "minecraft:bastion_generic_degradation",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "incendium:steam/large_hv",
+        "location": "incendium:pipeline/large_hv",
         "processors": "incendium:pipe_small",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "incendium:steam/large_vh",
+        "location": "incendium:pipeline/large_vh",
         "processors": "incendium:pipe_small",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

@@ -1,6 +1,6 @@
 # direct attack spell
 
-tellraw @a[tag=in.admin] "  Direct Attack -- Alt"
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Firework: Direct Alt",{"translate":"incendium.inferno.spell.firework.direct_alt"}]}
 
 execute if predicate incendium:random/30 run scoreboard players add $spell_card in.inferno 1
 scoreboard players set $attack_alt in.inferno 0

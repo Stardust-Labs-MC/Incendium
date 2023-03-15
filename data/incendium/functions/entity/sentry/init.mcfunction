@@ -1,19 +1,20 @@
-# from: entity/mobs/init
+# from: entity/mob/init
 # @s: sentry
 
-execute unless data entity @s CustomName run data modify entity @s CustomName set value {"text":"Pipeline Sentry","color":"yellow"}
+data modify entity @s CustomName set value '{"translate": "%1$s%4733088$s","with":["Pipeline Sentry",{"translate":"incendium.mob.pipeline.sentry.name"}],"color":"yellow"}'
+#data modify entity @s CustomModelData set value 1460300
+
+execute if entity @s[tag=in.prime_sentry] run data modify entity @s CustomName set value '"translate": "%1$s%4733088$s","with":["Prime Pipeline Sentry",{"translate":"incendium.mob.pipeline.guard.name"}]'
+
 team join in.noname @s
 
-execute store result score $hand.items in.dummy if data entity @s HandItems[{id:"minecraft:totem_of_undying"}]
-
-execute if predicate incendium:random/50 run scoreboard players set $count in.dummy 12
-execute if predicate incendium:random/50 run scoreboard players set $count in.dummy 6
-
-execute if score $hand.items in.dummy matches ..0 run data modify entity @s HandItems[0] set value {id:"minecraft:totem_of_undying",Count:4b}
-
-execute if score $hand.items in.dummy matches ..0 if predicate incendium:random/50 store result entity @s HandItems[0].Count byte 1 run scoreboard players get $count in.dummy
+tag @s add in.ticking_entity
+tag @s add in.checked
 
 data modify entity @s DeathLootTable set value 'incendium:entity/sentry'
-tag @s add in.ticking_entity
-
 data modify entity @s HandDropChances set value [-327.0f, -327.0f]
+
+# "Lives" particles
+
+execute at @s run summon marker ~ ~ ~ {Tags:["in.sentry_life"]}
+execute as @e[type=marker,tag=in.sentry_life,sort=nearest,limit=1,distance=..1] run data modify entity @s Rotation set value [90.0f, 0.0f]

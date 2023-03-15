@@ -5,10 +5,10 @@
       "nbt": "{Potion: \"minecraft:strong_harming\"}"
     },
     "title": {
-      "translate": "Alchemical Experiments"
+      "translate": "%1$s%4733088$s","with":["Alchemical Experiments",{"translate":"incendium.advancement.misc.ruined_lab.title"}]
     },
     "description": {
-      "translate": "The piglin's experiments backfired leading to a dangerous situation"
+      "translate": "%1$s%4733088$s","with":["The piglin's experiments backfired leading to a dangerous situation",{"translate":"incendium.advancement.misc.ruined_lab.desc"}]
     },
     "frame": "goal",
     "show_toast": true,

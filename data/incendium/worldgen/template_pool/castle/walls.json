@@ -5,7 +5,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "incendium:castle/wall_15_compat",
+        "location": "incendium:castle/walls/wall_15_compat",
         "processors": "incendium:nuclear_option_wall",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "incendium:castle/wall_15",
+        "location": "incendium:castle/walls/wall_15",
         "processors": "incendium:nuclear_option_wall",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "incendium:castle/wall_15w",
+        "location": "incendium:castle/walls/wall_15w",
         "processors": "incendium:nuclear_option_wall",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "incendium:castle/wall_corner",
+        "location": "incendium:castle/walls/wall_corner",
         "processors": "incendium:nuclear_option_wall",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

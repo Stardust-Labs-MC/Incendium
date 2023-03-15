@@ -5,7 +5,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "incendium:castle/wall_gate",
+        "location": "incendium:castle/walls/wall_gate",
         "processors": "incendium:nuclear_option_wall",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "incendium:castle/wall_gate3",
+        "location": "incendium:castle/walls/wall_gate3",
         "processors": "incendium:nuclear_option_wall",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Elixir of Undying",
+                "translate": "%1$s%4733088$s","with":["Elixir of Undying",{"translate":"incendium.item.undying_elixer.name"}],
                 "color": "#ffcc00",
                 "italic": false
               }
@@ -30,7 +30,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Miner's Ale",
+                "translate": "%1$s%4733088$s","with":["Miner's Ale",{"translate":"incendium.item.miners_ale.name"}],
                 "color": "#ff4e21",
                 "italic": false
               }

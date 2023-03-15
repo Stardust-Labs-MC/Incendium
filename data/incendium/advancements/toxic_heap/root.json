@@ -5,10 +5,10 @@
       "nbt": "{Enchantments:[]}"
     },
     "title": {
-      "translate": "Radioactive"
+      "translate": "%1$s%4733088$s","with":["Radioactive",{"translate":"incendium.advancement.toxic_heap.root.title"}]
     },
     "description": {
-      "translate": "Enter the nuclear wastelands of the Toxic Heap"
+      "translate": "%1$s%4733088$s","with":["Enter the nuclear wastelands of the Toxic Heap",{"translate":"incendium.advancement.toxic_heap.root.desc"}]
     },
     "frame": "task",
     "show_toast": true,

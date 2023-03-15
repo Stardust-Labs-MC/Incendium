@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{pages:['[\"\",{\"translate\":\"Vvvvvvvvvvv vvv \",\"obfuscated\":true},{\"translate\":\"strange \",\"color\":\"reset\"},{\"translate\":\"vvv\",\"obfuscated\":true},{\"translate\":\" pipes. \",\"color\":\"reset\"},{\"translate\":\"Vvvvv \",\"obfuscated\":true},{\"translate\":\"not known \",\"color\":\"reset\"},{\"translate\":\"vvv\",\"obfuscated\":true},{\"translate\":\" built \",\"color\":\"reset\"},{\"translate\":\"vvvv vvv\",\"obfuscated\":true},{\"translate\":\" danger \",\"color\":\"reset\"},{\"translate\":\"vvvvvvvvsdbdsdg\",\"strikethrough\":true,\"obfuscated\":true},{\"translate\":\" ------\\\\n\\\\nIt seems that the \",\"color\":\"reset\",\"obfuscated\":true},{\"translate\":\"blaz\",\"color\":\"reset\"},{\"translate\":\"es there are fueled by fall\",\"obfuscated\":true},{\"translate\":\"en soul\",\"color\":\"reset\"},{\"translate\":\"s, and their \",\"obfuscated\":true},{\"translate\":\"atta\",\"color\":\"reset\"},{\"translate\":\"cks move at an incredible \",\"obfuscated\":true},{\"translate\":\"speed\",\"color\":\"reset\"},{\"translate\":\".\",\"obfuscated\":true}]'],title:\"§kInvestigations\",author:\"§kThe Ancients\",generation:3}"
+              "tag": "{pages:['{\"translate\": \"%1$s%4733088$s\", \"with\":[\"\u00a7kVvvvvvvvvvv vvv\u00a7r strange \u00a7kvvv\u00a7r pipes. \u00a7kVvvvv\u00a7r not known \u00a7kvvv\u00a7r built \u00a7kvvvv vvv\u00a7r with \u00a7kvvvvvvvvsdbdsdg: vvvvvv\u00a7r\n\n\u00a7kIt seems that the\u00a7r blaz\u00a7kes there are fuelled by fall\u00a7ren souls,\n\u00a7kand their\u00a7r atta\u00a7kcks move at an incredible\u00a7r speed.\", {\"translate\":\"incendium.book.investigations.page1\"}]}'],title:\"§kInvestigations\",author:\"§kThe Ancients\",generation:3}"
             }
           ]
         }
@@ -40,7 +40,7 @@
     {
       "rolls": {
         "min": 2,
-        "max": 10
+        "max": 8
       },
       "entries": [
         {
@@ -73,7 +73,13 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:piglin_banner_pattern"
         },
         {
           "type": "minecraft:item",

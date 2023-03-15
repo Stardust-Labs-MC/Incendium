@@ -1,7 +1,7 @@
 # from: ../summon
 # loops at either 400t (normal hp, cheater), 320t (low hp), 120t (final)
 
-tellraw @a[tag=in.admin] ["", {"text": "Hovering Inferno: ", "color": "#ff4400"}, {"text": "Spell Cast Debug"}]
+tellraw @a[tag=in.admin] [{"translate": "%1$s%4733088$s","with":["Hovering Inferno",{"translate":"incendium.admin.menu.inferno"}],"color":"#ff4400"},{"text":": ","color":"#ff4400"},{"translate": "%1$s%4733088$s","with":["Spell Cast Debug",{"translate":"incendium.inferno.spell.debug"}]}]
 
 scoreboard players set $spell_card in.inferno 0
 

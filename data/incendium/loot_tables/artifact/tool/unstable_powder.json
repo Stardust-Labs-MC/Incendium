@@ -18,13 +18,13 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "Emits a brilliant light when dropped",
+                  "translate": "%1$s%4733088$s","with":["Emits a brilliant light when dropped",{"translate":"incendium.item.unstable_powder.desc1"}],
                   "color": "#666633",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -33,7 +33,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Unstable Powder",
+                "translate": "%1$s%4733088$s","with":["Unstable Powder",{"translate":"incendium.item.unstable_powder.name"}],
                 "color": "#ffeebb",
                 "italic": false
               }

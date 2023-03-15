@@ -4,10 +4,10 @@
       "item": "redstone"
     },
     "title": {
-      "translate": "Light-Sensitive"
+      "translate": "%1$s%4733088$s","with":["Light-Sensitive",{"translate":"incendium.advancement.infernal_dunes.dune_blaze.title"}]
     },
     "description": {
-      "translate": "Kill one of the odd Desert Blazes native to the Infernal Dunes"
+      "translate": "%1$s%4733088$s","with":["Kill one of the odd Desert Blazes native to the Infernal Dunes",{"translate":"incendium.advancement.infernal_dunes.dune_blaze.desc"}]
     },
     "frame": "task",
     "show_toast": true,

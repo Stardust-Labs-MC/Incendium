@@ -10,7 +10,7 @@
   "type": "minecraft:jigsaw",
   "start_pool": "incendium:castle",
   "size": 7,
-  "step": "surface_structures",
+  "step": "underground_decoration",
   "start_height": {
     "absolute": 33
   },

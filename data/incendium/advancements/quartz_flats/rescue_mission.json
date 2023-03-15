@@ -3,8 +3,12 @@
     "icon": {
       "item": "minecraft:iron_bars"
     },
-    "title": "Rescue Mission",
-    "description": "Enter the Quartz Tower, the prison of the Ghastling",
+    "title": {
+      "translate": "%1$s%4733088$s","with":["Rescue Mission",{"translate":"incendium.advancement.quartz_flats.rescue_mission.title"}]
+    },
+    "description": {
+      "translate": "%1$s%4733088$s","with":["Enter the Quartz Tower, the prison of the Ghastlings",{"translate":"incendium.advancement.quartz_flats.rescue_mission.desc"}]
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

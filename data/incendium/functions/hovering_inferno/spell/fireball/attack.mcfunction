@@ -1,6 +1,6 @@
 # attack :D
 
-tellraw @a[tag=in.admin] "  Fireball Attack -- Normal"
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Fireball: Normal",{"translate":"incendium.inferno.spell.fireball.normal"}]}
 
 function incendium:hovering_inferno/spell/kill/bullets
 playsound minecraft:entity.illusioner.cast_spell player @a[distance=..40] ~ ~ ~ 2 0.9 1

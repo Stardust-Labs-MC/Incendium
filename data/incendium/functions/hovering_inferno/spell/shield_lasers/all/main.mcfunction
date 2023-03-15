@@ -1,6 +1,6 @@
 # shield lasers - all
 
-tellraw @a[tag=in.admin] "  Shield Lasers -- All"
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Shield Lasers: All",{"translate":"incendium.inferno.spell.lasers.all"}]}
 
 scoreboard players set $laser_time in.inferno 0
 execute if predicate incendium:random/50 run scoreboard players add $spell_card in.inferno 1

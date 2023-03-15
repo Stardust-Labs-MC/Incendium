@@ -15,7 +15,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate": "Ghastling",
+                "translate": "%1$s%4733088$s","with":["Ghastling",{"translate":"incendium.item.ghastling_egg.name"}],
                 "color": "#ddafaf",
                 "italic": false
               }
@@ -25,17 +25,17 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "Destroys ghast fireballs that it can see.",
+                  "translate": "%1$s%4733088$s","with":["Destroys ghast fireballs that it can see.",{"translate":"incendium.item.ghastling_egg.desc1"}],
                   "color": "#bbbbbb",
                   "italic": false
                 },
                 {
-                  "translate": "Loves to eat fire charges.",
+                  "translate": "%1$s%4733088$s","with":["Loves to eat fire charges.",{"translate":"incendium.item.ghastling_egg.desc2"}],
                   "color": "#b4b4b4",
                   "italic": false
                 },
                 {
-                  "translate": "Loyal but lazy",
+                  "translate": "%1$s%4733088$s","with":["Loyal but lazy",{"translate":"incendium.item.ghastling_egg.desc3"}],
                   "color": "#b4b4b4",
                   "italic": false
                 }

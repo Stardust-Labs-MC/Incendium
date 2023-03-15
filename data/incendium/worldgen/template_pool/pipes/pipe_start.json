@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "incendium:pipes/pipe_start",
+        "location": "incendium:pipeline/start1",
         "processors": "minecraft:bastion_generic_degradation",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

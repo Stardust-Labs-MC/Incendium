@@ -4,10 +4,10 @@
       "item": "red_sand"
     },
     "title": {
-      "translate": "Darude - Firestorm"
+      "translate": "%1$s%4733088$s","with":["Darude - Firestorm",{"translate":"incendium.advancement.infernal_dunes.root.title"}]
     },
     "description": {
-      "translate": "Experience the blazing heat of the Infernal Dunes"
+      "translate": "%1$s%4733088$s","with":["Experience the blazing heat of the Infernal Dunes",{"translate":"incendium.advancement.infernal_dunes.root.desc"}]
     },
     "frame": "task",
     "show_toast": true,

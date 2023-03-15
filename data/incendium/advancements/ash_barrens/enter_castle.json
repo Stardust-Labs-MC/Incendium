@@ -5,10 +5,10 @@
       "nbt": "{Enchantments:[{}]}"
     },
     "title": {
-      "translate": "In the Hall of the Piglin King"
+      "translate": "%1$s%4733088$s","with":["In the Hall of the Piglin King",{"translate":"incendium.advancement.ash_barrens.enter_castle.title"}]
     },
     "description": {
-      "translate": "In the Golden Age, a great King ruled this castle. But he was betrayed, cursed, and exiled from his Kingdom. This is what remains."
+      "translate": "%1$s%4733088$s","with":["In the Golden Age, a great King ruled this castle. But he was betrayed, cursed, and exiled from his Kingdom. This is what remains.",{"translate":"incendium.advancement.ash_barrens.enter_castle.desc"}]
     },
     "frame": "goal",
     "show_toast": true,

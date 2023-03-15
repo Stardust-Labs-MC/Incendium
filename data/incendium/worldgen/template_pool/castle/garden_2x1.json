@@ -5,7 +5,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "incendium:castle/garden_2x1",
+        "location": "incendium:castle/courtyards/garden_2x1",
         "processors": "incendium:castle_floor",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

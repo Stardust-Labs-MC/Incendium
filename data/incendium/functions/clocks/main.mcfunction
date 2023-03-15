@@ -19,3 +19,5 @@ execute at @e[type=#incendium:mobs,scores={in.frozen=1..},predicate=incendium:ra
 execute as @e[type=#incendium:other, tag=!in.checked] at @s run function incendium:entity/other/init
 
 execute as @e[type=#incendium:other, tag=in.ticking_entity] at @s run function incendium:entity/other/main
+
+execute if entity @a[tag=nbs_borderofli] run function incendium:border_of_life/tick

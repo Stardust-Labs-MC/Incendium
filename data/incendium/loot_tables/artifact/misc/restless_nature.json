@@ -12,25 +12,23 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "A seed infused by spirits",
+                  "translate": "%1$s%4733088$s","with":["A seed infused by spirits",{"translate":"incendium.item.restless_nature.desc1"}],
                   "color": "#169e7e",
                   "italic": true
                 },
                 {
-                  "text": "with a final wish to regrow",
+                  "translate": "%1$s%4733088$s","with":["with a final wish to regrow",{"translate":"incendium.item.restless_nature.desc2"}],
                   "color": "#169e7e",
                   "italic": true
                 },
                 {
-                  "text": "the lost nature of the Nether",
+                  "translate": "%1$s%4733088$s","with":["the lost nature of the Nether",{"translate":"incendium.item.restless_nature.desc3"}],
                   "color": "#169e7e",
                   "italic": true
                 },
+                "",
                 {
-                  "text": ""
-                },
-                {
-                  "text": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -41,7 +39,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate": "Restless Nature",
+                "translate": "%1$s%4733088$s","with":["Restless Nature",{"translate":"incendium.item.restless_nature.name"}],
                 "color": "#137682",
                 "italic": false
               }

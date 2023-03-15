@@ -7,7 +7,7 @@
   "type": "minecraft:jigsaw",
   "start_pool": "incendium:cvill/town_centers",
   "size": 6,
-  "step": "surface_structures",
+  "step": "underground_decoration",
   "terrain_adaptation": "beard_thin",
   "start_height": {
     "absolute": 33

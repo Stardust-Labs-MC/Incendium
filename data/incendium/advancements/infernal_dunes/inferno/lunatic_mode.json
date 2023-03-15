@@ -5,10 +5,10 @@
       "nbt": "{Enchantments:[]}"
     },
     "title": {
-      "translate": "Lunatic Mode"
+      "translate": "%1$s%4733088$s","with":["Lunatic Mode",{"translate":"incendium.advancement.infernal_dunes.inferno.lunatic_mode.title"}]
     },
     "description": {
-      "translate": "Survive the Inferno's final phase with no armor"
+      "translate": "%1$s%4733088$s","with":["Survive the Inferno's final phase with no armor",{"translate":"incendium.advancement.infernal_dunes.inferno.lunatic_mode.desc"}]
     },
     "frame": "challenge",
     "show_toast": true,

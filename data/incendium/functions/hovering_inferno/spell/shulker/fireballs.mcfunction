@@ -1,6 +1,6 @@
 # spawn fireballs
 
-tellraw @a[tag=in.admin] "  Shulker Attack -- Fireballs"
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Shulker: Fireballs",{"translate":"incendium.inferno.spell.shulker.fireballs"}]}
 
 function incendium:hovering_inferno/spell/kill/bullets
 playsound minecraft:entity.wither.shoot player @a[distance=..50] ~ ~ ~ 5 0.3 1

@@ -30,7 +30,7 @@ tag @s add in.self
 # # teleport player
 # execute in minecraft:overworld positioned 0.0 0.0 0.0 as @e[type=marker,tag=in.helper_entity,distance=..10] run function incendium:item/patron/scroll_of_returning/coords
 
-tellraw @s {"text": "Woosh..! A familiar place awaits.", "italic": true, "color": "#D393F5"}
+tellraw @s {"translate": "%1$s%4733088$s","with":["Whoosh! A familiar place awaits.",{"translate":"incendium.item.returning_scroll.system.whoosh"}], "italic": true, "color": "#D393F5"}
 
 # particles before tping
 particle minecraft:large_smoke ~ ~ ~ 0 0 0 0.1 50

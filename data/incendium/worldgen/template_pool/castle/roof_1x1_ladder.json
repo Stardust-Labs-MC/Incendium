@@ -5,7 +5,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "incendium:castle/roof_1x1_4",
+        "location": "incendium:castle/roofs/roof_1x1_4",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "incendium:castle/roof_1x1_8",
+        "location": "incendium:castle/roofs/roof_1x1_8",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

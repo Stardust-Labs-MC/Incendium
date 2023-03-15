@@ -4,6 +4,7 @@ execute as @e[type=blaze,tag=in.hovering_inferno] at @s run forceload remove ~ ~
 
 execute store result score $players in.dummy if entity @a[tag=in.inferno_fight]
 scoreboard players remove $players in.dummy 2
+scoreboard players set $running in.inferno 0
 
 execute if score $players in.dummy matches 1.. run loot spawn ~ ~ ~ loot incendium:hovering_inferno/extras
 

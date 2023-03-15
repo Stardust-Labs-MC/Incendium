@@ -10,7 +10,7 @@
     },
     {
       "structure": "incendium:nether_reactor",
-      "weight": 5
+      "weight": 3
     }
   ],
   "placement": {
@@ -20,4 +20,3 @@
     "type": "minecraft:random_spread"
   }
 }
-

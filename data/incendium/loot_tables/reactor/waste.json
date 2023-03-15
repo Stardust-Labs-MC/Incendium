@@ -140,7 +140,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Hazmat Helmet",
+                "translate": "%1$s%4733088$s","with":["Hazmat Helmet",{"translate":"incendium.item.hazmat.helmet.name"}],
                 "color": "#44ff00",
                 "italic": false
               }
@@ -164,9 +164,15 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "Protects the wearer from poison",
+                  "translate": "%1$s%4733088$s","with":["Protects the wearer from poison",{"translate":"incendium.item.hazmat.suit.desc1"}],
                   "color": "#77cc00",
-                  "italic": "false"
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
+                  "color": "#FF8000",
+                  "italic": true
                 }
               ],
               "entity": "this"
@@ -194,9 +200,15 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "Protects the wearer from poison",
+                  "translate": "%1$s%4733088$s","with":["Protects the wearer from poison",{"translate":"incendium.item.hazmat.suit.desc1"}],
                   "color": "#77cc00",
-                  "italic": "false"
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
+                  "color": "#FF8000",
+                  "italic": true
                 }
               ],
               "entity": "this"
@@ -204,7 +216,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Hazmat Chestplate",
+                "translate": "%1$s%4733088$s","with":["Hazmat Chestplate",{"translate":"incendium.item.hazmat.chestplate.name"}],
                 "color": "#44ff00",
                 "italic": false
               }
@@ -247,9 +259,15 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "Protects the wearer from poison",
+                  "translate": "%1$s%4733088$s","with":["Protects the wearer from poison",{"translate":"incendium.item.hazmat.suit.desc1"}],
                   "color": "#77cc00",
-                  "italic": "false"
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
+                  "color": "#FF8000",
+                  "italic": true
                 }
               ],
               "entity": "this"
@@ -257,7 +275,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Hazmat Leggings",
+                "translate": "%1$s%4733088$s","with":["Hazmat Leggings",{"translate":"incendium.item.hazmat.leggings.name"}],
                 "color": "#44ff00",
                 "italic": false
               }
@@ -300,9 +318,15 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "Protects the wearer from poison",
+                  "translate": "%1$s%4733088$s","with":["Protects the wearer from poison",{"translate":"incendium.item.hazmat.suit.desc1"}],
                   "color": "#77cc00",
-                  "italic": "false"
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
+                  "color": "#FF8000",
+                  "italic": true
                 }
               ],
               "entity": "this"
@@ -310,7 +334,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Hazmat Boots",
+                "translate": "%1$s%4733088$s","with":["Hazmat Boots",{"translate":"incendium.item.hazmat.boots.name"}],
                 "color": "#44ff00",
                 "italic": false
               }

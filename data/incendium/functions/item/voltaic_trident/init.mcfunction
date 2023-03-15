@@ -13,7 +13,7 @@ execute store result score @s in.trident_id run scoreboard players add $latest.i
 execute store result score @s in.dummy if data entity @s Trident.tag.Enchantments[{id:"minecraft:channeling"}]
 
 execute if entity @s[scores={in.dummy=1..}] run summon lightning_bolt
-execute if entity @s[scores={in.dummy=1..}] run tellraw @p[tag=in.self] ["", {"translate": "Volatic Trident", "color": "#8844ff", "bold": true}, " ", {"translate": "struggles to be stable with the channeling enchant", "color": "#4400aa"}]
+execute if entity @s[scores={in.dummy=1..}] run tellraw @p[tag=in.self] ["", {"translate": "%1$s%4733088$s","with":["Voltaic Trident",{"translate":"incendium.item.voltaic_trident.name"}], "color": "#8844ff", "bold": true}, " ", {"translate": "%1$s%4733088$s","with":["struggles to be stable with the channeling enchantment",{"translate":"incendium.item.voltaic_trident.system.unstable"}], "color": "#4400aa"}]
 
 data modify entity @s[scores={in.dummy=..0}] Trident.tag.player_uuid set from storage incendium:temp player.UUID
 

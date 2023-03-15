@@ -1,7 +1,7 @@
 # from ./shot
 # @s: player
 
-tellraw @s [{"translate": "Trailblazer", "color": "#F7823E", "bold": true}, " ", {"translate": "requires a fully drawn back bow to function", "color":"#C46731", "bold": false}]
+tellraw @s [{"translate": "%1$s%4733088$s","with":["Trailblazer",{"translate":"incendium.item.trailblazer.name"}], "color": "#F7823E", "bold": true}, " ", {"translate": "%1$s%4733088$s","with":["requires a fully drawn back bow to function",{"translate":"incendium.item.trailblazer.system.fail"}], "color":"#C46731", "bold": false}]
 
 execute anchored eyes run summon firework_rocket ^ ^ ^0.25 {LifeTime:1,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:1,Trail:0,Colors:[I;11743532,15435844],FadeColors:[I;14602026,15435844]},{Type:0,Flicker:1,Trail:0,Colors:[I;11743532,15435844],FadeColors:[I;14602026,15435844]}]}}}}
 execute anchored eyes run summon firework_rocket ^ ^ ^0.25 {LifeTime:1,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:1,Trail:0,Colors:[I;11743532,15435844],FadeColors:[I;14602026,15435844]},{Type:0,Flicker:1,Trail:0,Colors:[I;11743532,15435844],FadeColors:[I;14602026,15435844]}]}}}}

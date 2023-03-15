@@ -1,6 +1,6 @@
 # shulker attack
 
-tellraw @a[tag=in.admin] "  Shulker Attack -- Normal"
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Shulker: Attack",{"translate":"incendium.inferno.spell.shulker.attack"}]}
 
 scoreboard players add $spell_card in.inferno 1
 

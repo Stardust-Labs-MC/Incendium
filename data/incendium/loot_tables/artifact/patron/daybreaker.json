@@ -44,24 +44,24 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "Has a chance to drop gold",
+                  "translate": "%1$s%4733088$s","with":["Has a chance to drop gold",{"translate":"incendium.item.daybreaker.desc1"}],
                   "color": "#cc9900",
                   "italic": true
                 },
                 {
-                  "translate": "when killing any mob",
+                  "translate": "%1$s%4733088$s","with":["when killing any mob",{"translate":"incendium.item.daybreaker.desc2"}],
                   "color": "#cc9900",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Patron Item",
+                  "translate": "%1$s%4733088$s","with":["Patron Item",{"translate":"incendium.system.patron_item"}],
                   "color": "#333333",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -72,7 +72,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate": "Daybreaker",
+                "translate": "%1$s%4733088$s","with":["Daybreaker",{"translate":"incendium.item.daybreaker.name"}],
                 "color": "#ffcc00",
                 "italic": false
               }

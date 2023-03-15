@@ -4,10 +4,10 @@
       "item": "barrel"
     },
     "title": {
-      "translate": "Plumber's Plunder"
+      "translate": "%1$s%4733088$s","with":["Plumber's Plunder",{"translate":"incendium.advancement.infernal_dunes.pipeline.pipeline_treasure.title"}]
     },
     "description": {
-      "translate": "Retrieve a Pipeline's hidden treasure"
+      "translate": "%1$s%4733088$s","with":["Retrieve a Pipeline's hidden treasure",{"translate":"incendium.advancement.infernal_dunes.pipeline.pipeline_treasure.desc"}]
     },
     "frame": "challenge",
     "show_toast": true,
@@ -19,7 +19,7 @@
     "requirement": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "incendium:steam/treasure"
+        "loot_table": "incendium:pipeline/treasure"
       }
     }
   }

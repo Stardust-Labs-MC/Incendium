@@ -5,7 +5,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "incendium:castle/1x1_l1",
+        "location": "incendium:castle/floors/1x1_l1",
         "processors": "incendium:nuclear_option_mid",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

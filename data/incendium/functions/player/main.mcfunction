@@ -72,10 +72,10 @@ execute if entity @s[scores={in.ragnarok=1..}, advancements={incendium:technical
 execute if entity @s[advancements={incendium:technical/using/ragnarok=true}] run function incendium:item/ragnarok/using
 
 # restless nature
-execute if entity @s[predicate=incendium:holding/restless_nature,predicate=incendium:dimension/nether] run tag @s add in.restless
-execute if entity @s[scores={in.use_snowball=1..},tag=in.restless] run execute as @e[type=snowball,distance=..2,limit=1,sort=nearest] run function incendium:item/restless_nature/init
+execute if entity @s[predicate=incendium:holding/restless_nature,predicate=incendium:dimension/nether] run scoreboard players set @s in.restless_nature 5
+execute if entity @s[scores={in.use_snowball=1..,in.restless_nature=1..}] run execute as @e[type=snowball,distance=..2,limit=1,sort=nearest] run function incendium:item/restless_nature/init
+execute if entity @s[scores={in.restless_nature=1..}] run scoreboard players remove @s in.restless_nature 1
 scoreboard players set @s in.use_snowball 0
-tag @s remove in.restless
 
 # scroll of returning
 execute if entity @s[scores={in.use_map=1..},tag=in.scroll] run function incendium:item/patron/scroll_of_returning/use

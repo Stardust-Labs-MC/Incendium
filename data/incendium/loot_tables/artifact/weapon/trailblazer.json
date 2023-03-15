@@ -11,28 +11,28 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "Fires more powerful arrows",
+                  "translate": "%1$s%4733088$s","with":["Fires more powerful arrows",{"translate":"incendium.item.trailblazer.desc1"}],
                   "color": "#C46731",
                   "italic": true
                 },
                 {
-                  "translate": "the longer you pull the bow.",
+                  "translate": "%1$s%4733088$s","with":["the longer you pull the bow.",{"translate":"incendium.item.trailblazer.desc2"}],
                   "color": "#C46731",
                   "italic": true
                 },
                 {
-                  "translate": "Spectral arrows leave",
+                  "translate": "%1$s%4733088$s","with":["Spectral arrows leave",{"translate":"incendium.item.trailblazer.desc3"}],
                   "color": "#C46731",
                   "italic": true
                 },
                 {
-                  "translate": "a trail of blaze.",
+                  "translate": "%1$s%4733088$s","with":["a trail of blaze.",{"translate":"incendium.item.trailblazer.desc4"}],
                   "color": "#C46731",
                   "italic": true
                 },
                 "",
                 {
-                  "translate": "Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -42,7 +42,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate": "Trailblazer",
+                "translate": "%1$s%4733088$s","with":["Trailblazer",{"translate":"incendium.item.trailblazer.name"}],
                 "color": "#F7823E",
                 "italic": false
               }

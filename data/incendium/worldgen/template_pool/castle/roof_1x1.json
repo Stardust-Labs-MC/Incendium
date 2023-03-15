@@ -5,7 +5,7 @@
     {
       "weight": 12,
       "element": {
-        "location": "incendium:castle/roof_1x1_1",
+        "location": "incendium:castle/roofs/roof_1x1_1",
         "processors": "incendium:nuclear_option",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 12,
       "element": {
-        "location": "incendium:castle/roof_1x1_2",
+        "location": "incendium:castle/roofs/roof_1x1_2",
         "processors": "incendium:nuclear_option",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "incendium:castle/roof_1x1_3",
+        "location": "incendium:castle/roofs/roof_1x1_3",
         "processors": "incendium:nuclear_option",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "incendium:castle/roof_1x1_4",
+        "location": "incendium:castle/roofs/roof_1x1_4",
         "processors": "incendium:nuclear_option",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -41,7 +41,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "incendium:castle/roof_1x1_8",
+        "location": "incendium:castle/roofs/roof_1x1_8",
         "processors": "incendium:nuclear_option",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -68,7 +68,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "incendium:castle/roof_1x1_6",
+        "location": "incendium:castle/roofs/roof_1x1_6",
         "processors": "incendium:nuclear_option",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -77,7 +77,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "incendium:castle/roof_1x1_short1",
+        "location": "incendium:castle/roofs/roof_1x1_short1",
         "processors": "incendium:nuclear_option",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

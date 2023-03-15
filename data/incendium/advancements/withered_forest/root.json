@@ -4,10 +4,10 @@
       "item": "blackstone"
     },
     "title": {
-      "translate": "Ancient Battlefield"
+      "translate": "%1$s%4733088$s","with":["Ancient Battlefield",{"translate":"incendium.advancement.withered_forest.root.title"}]
     },
     "description": {
-      "translate": "Enter the Withered Forest, ancestral battleground of the Piglins and Wither Skeletons"
+      "translate": "%1$s%4733088$s","with":["Enter the Withered Forest, ancestral battleground of the Piglins and Wither Skeletons",{"translate":"incendium.advancement.withered_forest.root.desc"}]
     },
     "frame": "task",
     "show_toast": true,

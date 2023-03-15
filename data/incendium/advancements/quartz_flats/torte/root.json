@@ -4,10 +4,10 @@
       "item": "minecraft:bone"
     },
     "title": {
-      "translate": "You Fool!"
+      "translate": "%1$s%4733088$s","with":["You Fool!",{"translate":"incendium.advancement.quartz_flats.torte.root.title"}]
     },
     "description": {
-      "translate": "Kill the skeleton chef Torte and loot his kitchen"
+      "translate": "%1$s%4733088$s","with":["Kill the skeleton chef Torte and loot his kitchen",{"translate":"incendium.advancement.quartz_flats.torte.root.desc"}]
     },
     "frame": "goal",
     "show_toast": true,

@@ -5,7 +5,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "incendium:reactor",
+        "location": "incendium:reactor/reactor",
         "processors": "incendium:reactor",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

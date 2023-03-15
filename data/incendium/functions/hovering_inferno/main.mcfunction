@@ -10,5 +10,3 @@ execute if score $shield.pivot in.inferno matches 360.. run scoreboard players s
 
 execute as @e[tag=in.inferno_entity] at @s run function incendium:hovering_inferno/entity
 execute as @a[tag=in.inferno_fight] at @s run function incendium:hovering_inferno/player/main
-
-function incendium:border_of_life/tick
