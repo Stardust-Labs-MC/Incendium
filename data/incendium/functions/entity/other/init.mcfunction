@@ -42,7 +42,7 @@ loot replace entity @s[type=minecraft:armor_stand,tag=sword] weapon.mainhand loo
 loot replace entity @s[type=minecraft:armor_stand,tag=in.sword] weapon.mainhand loot incendium:artifact/scarlet_or_sacrifice
 
 #> Voltaic Lightning
-execute if entity @s[type=area_effect_cloud,tag=in.thunder] run function incendium:entity/voltaic_lightning/spawn
+#execute if entity @s[type=area_effect_cloud,tag=in.thunder] run function incendium:entity/voltaic_lightning/spawn
 
-# Quartz Tower GHastling init
-execute if entity @s[type=marker,tag=in.tower_ghastling] run function incendium:entity/baby_ghast/init
+# Quartz Tower Ghastling init
+execute if entity @s[type=marker,tag=in.tower_ghastling] run function incendium:entity/baby_ghast/pre_init

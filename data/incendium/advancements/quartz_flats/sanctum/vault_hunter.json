@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "title": {
+            "translate": "%1$s%4733088$s", "with": ["Vault Hunter", {"translate": "incendium.advancement.quartz_flats.sanctum.vault_hunter.title"}]
+        },
+        "description": {
+            "translate": "%1$s%4733088$s", "with": ["Infiltrate the Sanctum vault and silence its guards to remove Mining Fatigue", {"translate": "incendium.advancement.quartz_flats.sanctum.vault_hunter.desc"}]
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "incendium:quartz_flats/sanctum/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:pillager",
+                            "nbt": "{Tags:[\"in.sanctum_guardian\"]}",
+                            "location": {
+                                "structure": "incendium:sanctum"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

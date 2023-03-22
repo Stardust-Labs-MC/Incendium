@@ -14,7 +14,7 @@
     }
   },
   "type": "minecraft:jigsaw",
-  "start_pool": "incendium:quartz/sanctum",
+  "start_pool": "incendium:sanctum/top",
   "size": 6,
   "step": "underground_decoration",
   "start_height": {

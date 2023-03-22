@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Spawn (3/5) \]](bold, #FF3F0D)
+[→](bold, gold) [All Castle Knight](#FF870F, run="/function incendium:admin/spawn/castle/knight/all")
+[→](bold, gold) [Village Brewer](#E85302, run="/function incendium:admin/spawn/village/brewer")
+[→](bold, gold) [Village Guard](#FF870F, run="/function incendium:admin/spawn/village/guard")
+[→](bold, gold) [Village Miner](#E85302, run="/function incendium:admin/spawn/village/miner")
+[→](bold, gold) [Village Lumberjack 1](#FF870F, run="/function incendium:admin/spawn/village/lumberjack1")
+[→](bold, gold) [Village Lumberjack 2](#E85302, run="/function incendium:admin/spawn/village/lumberjack2")
+[→](bold, gold) [Piglin Civilian](#FF870F, run="/function incendium:admin/spawn/village/civilian")
+[← Back](bold, #FF3F0D, run="/function incendium:admin/menu/spawn/2")  [|](bold, gray)  [Next →](bold, #FF3F0D, run="/function incendium:admin/menu/spawn/4")

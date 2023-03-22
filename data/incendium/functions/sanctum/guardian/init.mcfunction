@@ -10,5 +10,3 @@ data modify entity @s PersistenceRequired set value 1b
 
 tag @s add in.ticking_entity
 effect give @s fire_resistance 1000000 2 true
-
-schedule function incendium:sanctum/guardian/mining_fatigue 1t replace

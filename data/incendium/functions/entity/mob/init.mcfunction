@@ -37,9 +37,6 @@ execute if entity @s[type=magma_cube,predicate=incendium:biome/toxic_heap] if sc
 execute if entity @s[type=skeleton,tag=in.torte] run function incendium:entity/misc_init/torte
 execute if entity @s[type=skeleton,tag=in.bro] run function incendium:entity/misc_init/skeli_bro
 
-#> Baby Ghast
-execute if entity @s[type=allay,tag=in.unborn_ghast] run function incendium:entity/baby_ghast/init
-
 #> Castle
 tag @s[tag=castle] add in.castle
 execute if entity @s[tag=in.castle] run function incendium:castle/mob/init
@@ -47,7 +44,6 @@ execute if entity @s[type=hoglin,name="Dinnerbone"] run team join in.noname @s
 
 #> Sanctum
 execute if entity @s[tag=in.sanctum] run function incendium:sanctum/mob/init
-execute if entity @s[type=illusioner,name="Sanctum Illusionist",tag=in.sanctum] run function incendium:entity/misc_init/illusionist
 
 #> Village
-execute if entity @s[type=piglin,predicate=incendium:structure/piglin_village] run function incendium:entity/misc_init/piglin_civilian
+execute if entity @s[type=piglin,predicate=incendium:structure/piglin_village] run function incendium:entity/piglin_villager/init

@@ -126,8 +126,6 @@ schedule function incendium:clocks/1m 60s replace
 # load msg here
 execute unless score $load.message in.constants matches 1 run schedule function incendium:clocks/wait_for_player 2s replace
 
-schedule function incendium:sanctum/guardian/mining_fatigue 20t
-
 # this clock is offset by 5t
 #  advancement checks are done every 1s
 #  the offset smooths it out on the tick cycle

@@ -1,6 +1,6 @@
 
 [\[ Incendium Menu: Hovering Inferno (Main) \]](bold, #FF3F0D)
-[→](bold, gold) [Spawn](#FF870F, run="/function incendium:admin/spawn/hovering_inferno")
+[→](bold, gold) [Spawn](#FF870F, run="/function incendium:admin/spawn/hovering_inferno/hovering_inferno")
 [→](bold, gold) [Spawn: Phase 2](#FF870F, run="/function incendium:admin/spawn/hovering_inferno/phase_2")
 [→](bold, gold) [End](#E85302, run="/function incendium:hovering_inferno/end")
 [→](bold, gold) [End Badly](#FF870F, run="/function incendium:hovering_inferno/end/bad")

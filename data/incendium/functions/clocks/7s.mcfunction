@@ -11,10 +11,6 @@ execute as @e[type=vex,tag=in.spirit,predicate=incendium:dimension/nether] run s
 scoreboard players set %count in.toxic_count 0
 execute as @e[type=slime,tag=in.toxic_slime,predicate=incendium:dimension/nether] run scoreboard players add %count in.toxic_count 1
 
-# ghastling
-
-tag @e[type=vex,tag=in.baby_ghast,predicate=incendium:random/12] remove in.following
-
 # other
 kill @e[type=arrow,tag=in.temp_arrow,nbt={inGround:1b}]
 

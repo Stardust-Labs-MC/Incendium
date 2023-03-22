@@ -3,8 +3,10 @@
 
 # toggle
 scoreboard players set %ghastling in.dummy 0
+scoreboard players set @s in.timer 400
 execute if entity @s[tag=in.following] run scoreboard players set %ghastling in.dummy 1
 tag @s add in.following
+execute if score %ghastling in.dummy matches 1 run playsound minecraft:entity.ghast.scream player @a[distance=..8] ~ ~ ~ 2 0.7 0
 execute if score %ghastling in.dummy matches 1 run tag @s remove in.following
 
 # audiovisuals
