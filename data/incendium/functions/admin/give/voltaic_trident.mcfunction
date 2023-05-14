@@ -1,1 +1,0 @@
-loot give @s loot incendium:artifact/weapon/voltaic_trident

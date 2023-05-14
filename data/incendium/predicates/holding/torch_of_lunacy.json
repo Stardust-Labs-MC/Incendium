@@ -1,7 +1,0 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "nbt": "{Inventory:[{tag:{incendium:{item:'torch_of_lunacy'}}}]}"
-  }
-}

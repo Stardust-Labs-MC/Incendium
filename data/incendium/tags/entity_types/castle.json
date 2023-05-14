@@ -1,9 +1,0 @@
-{
-  "description": "All castle entities",
-  "values": [
-    "minecraft:piglin",
-    "minecraft:piglin_brute",
-    "minecraft:marker",
-    "minecraft:area_effect_cloud"
-  ]
-}

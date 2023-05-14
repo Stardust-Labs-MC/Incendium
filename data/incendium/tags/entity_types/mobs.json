@@ -1,7 +1,0 @@
-{
-  "description": "All mob entities",
-  "values": [
-    "minecraft:player",
-    "#incendium:mobs_no_player"
-  ]
-}
