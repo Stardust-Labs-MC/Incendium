@@ -3,7 +3,7 @@
   "entity": "this",
   "predicate": {
     "location": {
-      "structure": "incendium:piglin_village"
+      "feature": "incendium:piglin_village"
     }
   }
 }

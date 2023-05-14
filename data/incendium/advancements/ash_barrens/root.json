@@ -4,10 +4,10 @@
       "item": "smooth_basalt"
     },
     "title": {
-      "translate":"incendium.advancement.ash_barrens.root.title","fallback":"The Dust Settles"
+      "translate": "%1$s%4733088$s","with":["The Dust Settles",{"translate":"incendium.advancement.ash_barrens.root.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.ash_barrens.root.desc","fallback":"Enter the Ash Barrens, the forgotten home to the Forbidden Castle"
+      "translate": "%1$s%4733088$s","with":["Enter the Ash Barrens, the forgotten home to the Forbidden Castle",{"translate":"incendium.advancement.ash_barrens.root.desc"}]
     },
     "frame": "task",
     "show_toast": true,

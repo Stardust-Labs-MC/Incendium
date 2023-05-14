@@ -1,7 +1,7 @@
 {
   "feature": "minecraft:ore_ancient_debris_small",
   "placement": [
-    {
+        {
       "type": "count",
       "count": 2
     },

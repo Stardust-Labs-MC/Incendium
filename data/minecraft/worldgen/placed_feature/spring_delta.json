@@ -1,7 +1,7 @@
 {
   "feature": "minecraft:spring_lava_nether",
   "placement": [
-    {
+        {
       "type": "count",
       "count": 2
     },

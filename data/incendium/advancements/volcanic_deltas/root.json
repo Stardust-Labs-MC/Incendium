@@ -4,10 +4,10 @@
       "item": "polished_basalt"
     },
     "title": {
-      "translate":"incendium.advancement.volcanic_deltas.root.title","fallback":"Hellfire Mantle"
+      "translate": "%1$s%4733088$s","with":["Hellfire Mantle",{"translate":"incendium.advancement.volcanic_deltas.root.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.volcanic_deltas.root.desc","fallback":"Enter the chaotic Volcanic Deltas"
+      "translate": "%1$s%4733088$s","with":["Enter the chaotic Volcanic Deltas",{"translate":"incendium.advancement.volcanic_deltas.root.desc"}]
     },
     "frame": "task",
     "show_toast": true,

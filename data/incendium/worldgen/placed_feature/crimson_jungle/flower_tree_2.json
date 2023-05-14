@@ -58,7 +58,8 @@
         "offset": 1,
         "height": 0
       },
-      "decorators": []
+      "decorators": [
+      ]
     }
   },
   "placement": []

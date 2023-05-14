@@ -40,8 +40,6 @@
 			},
 			"max_steps": 32
 		},
-		{
-			"type": "biome"
-		}
+		{"type":"biome"}
 	]
 }

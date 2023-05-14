@@ -1,7 +1,7 @@
 {
   "feature": "minecraft:twisting_vines",
   "placement": [
-    {
+        {
       "type": "count",
       "count": 2
     },

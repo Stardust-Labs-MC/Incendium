@@ -1,10 +1,32 @@
 {
-  "argument1": {
-    "argument1": 10,
-    "argument2": {
-      "argument1": 1,
+      "argument1": {
+        "argument1": 10.0,
+        "argument2": {
+          "argument1": 1.0,
+          "argument2": {
+            "argument1": -1.0,
+            "argument2": {
+              "argument": {
+                "type": "minecraft:blend_alpha"
+              },
+              "type": "minecraft:cache_once"
+            },
+            "type": "minecraft:mul"
+          },
+          "type": "minecraft:add"
+        },
+        "type": "minecraft:mul"
+      },
       "argument2": {
-        "argument1": -1,
+        "argument1": {
+          "spline": "factor",
+          "min_value": 0.0,
+          "max_value": 8.0,
+            "continentalness": "incendium:climate/continentalness",
+            "erosion": "incendium:climate/erosion",
+            "weirdness": "incendium:climate/weirdness",
+          "type": "minecraft:terrain_shaper_spline"
+        },
         "argument2": {
           "argument": {
             "type": "minecraft:blend_alpha"
@@ -14,222 +36,4 @@
         "type": "minecraft:mul"
       },
       "type": "minecraft:add"
-    },
-    "type": "minecraft:mul"
-  },
-  "argument2": {
-    "argument1": {
-      "spline": {
-        "coordinate": "incendium:climate/continentalness",
-        "points": [
-          {
-            "location": -0.3,
-            "value": {
-              "coordinate": "incendium:climate/erosion",
-              "points": [
-                {
-                  "location": -0.3,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": -0.4,
-                        "value": 0.5,
-                        "derivative": 0
-                      },
-                      {
-                        "location": 0,
-                        "value": 0.875,
-                        "derivative": 0
-                      },
-                      {
-                        "location": 0.5,
-                        "value": 1.25,
-                        "derivative": 0
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                },
-                {
-                  "location": 0,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": 0,
-                        "value": 0,
-                        "derivative": 0
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                },
-                {
-                  "location": 0.225,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": 0,
-                        "value": 0.675,
-                        "derivative": 0
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                }
-              ]
-            },
-            "derivative": 0
-          },
-          {
-            "location": 0,
-            "value": {
-              "coordinate": "incendium:climate/erosion",
-              "points": [
-                {
-                  "location": 0,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": 0,
-                        "value": 0,
-                        "derivative": 0
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                },
-                {
-                  "location": 0.15,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": 0,
-                        "value": 0,
-                        "derivative": 0
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                },
-                {
-                  "location": 0.325,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": 0,
-                        "value": 0.25,
-                        "derivative": 0.2
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                }
-              ]
-            },
-            "derivative": 0
-          },
-          {
-            "location": 0.3,
-            "value": {
-              "coordinate": "incendium:climate/erosion",
-              "points": [
-                {
-                  "location": -0.3,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": 0,
-                        "value": 0.525,
-                        "derivative": 0
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                },
-                {
-                  "location": -0.075,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": 0,
-                        "value": 0,
-                        "derivative": 0
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                },
-                {
-                  "location": 0.1,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": -0.5,
-                        "value": 4.25,
-                        "derivative": 0
-                      },
-                      {
-                        "location": 0,
-                        "value": 2.5,
-                        "derivative": 0
-                      },
-                      {
-                        "location": 0.5,
-                        "value": 3,
-                        "derivative": 0
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                },
-                {
-                  "location": 0.5,
-                  "value": {
-                    "coordinate": "incendium:climate/weirdness",
-                    "points": [
-                      {
-                        "location": -0.5,
-                        "value": 2.65,
-                        "derivative": 0
-                      },
-                      {
-                        "location": 0,
-                        "value": 2,
-                        "derivative": 0
-                      },
-                      {
-                        "location": 0.5,
-                        "value": 4.25,
-                        "derivative": 0
-                      }
-                    ]
-                  },
-                  "derivative": 0
-                }
-              ]
-            },
-            "derivative": 0
-          }
-        ]
-      },
-      "type": "minecraft:spline"
-    },
-    "argument2": {
-      "argument": {
-        "type": "minecraft:blend_alpha"
-      },
-      "type": "minecraft:cache_once"
-    },
-    "type": "minecraft:mul"
-  },
-  "type": "minecraft:add"
-}
+    }

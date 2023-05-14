@@ -1,6 +1,6 @@
 # firework attack alt
 
-tellraw @a[tag=in.admin] {"translate":"incendium.inferno.spell.firework.spread_alt","fallback":"Firework: Spread Alt"}
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Firework: Spread Alt",{"translate":"incendium.inferno.spell.firework.spread_alt"}]}
 
 function incendium:hovering_inferno/spell/kill/bullets
 playsound minecraft:entity.evoker.prepare_summon player @a[distance=..40] ~ ~ ~ 2 1.1

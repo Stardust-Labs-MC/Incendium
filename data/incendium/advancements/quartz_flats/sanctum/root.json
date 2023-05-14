@@ -5,10 +5,10 @@
       "nbt": "{Enchantments:[{}]}"
     },
     "title": {
-      "translate":"incendium.advancement.quartz_flats.sanctum.root.title","fallback":"An Illager Refuge?"
+      "translate": "%1$s%4733088$s","with":["An Illager Refuge?",{"translate":"incendium.advancement.quartz_flats.sanctum.root.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.quartz_flats.sanctum.root.desc","fallback":"The Illagers' Sanctum might not be so holy..."
+      "translate": "%1$s%4733088$s","with":["The Illagers' Sanctum might not be so holy...",{"translate":"incendium.advancement.quartz_flats.sanctum.root.desc"}]
     },
     "frame": "goal",
     "show_toast": true,
@@ -22,7 +22,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "incendium:sanctum"
+            "feature": "incendium:sanctum"
           }
         }
       }

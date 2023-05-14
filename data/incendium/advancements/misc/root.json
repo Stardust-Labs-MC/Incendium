@@ -4,10 +4,10 @@
       "item": "minecraft:golden_boots"
     },
     "title": {
-      "translate":"incendium.advancement.misc.root.title","fallback":"Strange Biomes"
+      "translate": "%1$s%4733088$s","with":["Strange Biomes",{"translate":"incendium.advancement.misc.root.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.misc.root.desc","fallback":"Visit any Incendium biome"
+      "translate": "%1$s%4733088$s","with":["Visit any Incendium biome",{"translate":"incendium.advancement.misc.root.desc"}]
     },
     "frame": "task",
     "show_toast": true,

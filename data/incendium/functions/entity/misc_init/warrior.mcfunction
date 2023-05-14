@@ -2,7 +2,7 @@
 # @s: withered skeleton
 
 tag @s add in.checked
-data modify entity @s CustomName set value '{"translate":"incendium.mob.misc.headless.name","fallback":"Headless Warrior"}'
+data modify entity @s CustomName set value '{"translate": "%1$s%4733088$s","with":["Headless Warrior",{"translate":"incendium.mob.misc.headless.name"}]}'
 team join in.noname @s
 
 attribute @s generic.movement_speed base set 0.16

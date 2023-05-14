@@ -5,33 +5,33 @@
       "biomes": [
         {
           "parameters": {
-            "erosion": 0,
-            "depth": 0,
-            "weirdness": 0,
-            "offset": 0,
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0
           },
           "biome": "minecraft:nether_wastes"
         },
         {
           "parameters": {
-            "erosion": 0,
-            "depth": 0,
-            "weirdness": 0,
-            "offset": 0,
-            "temperature": 0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
             "humidity": -0.5,
-            "continentalness": 0
+            "continentalness": 0.0
           },
           "biome": "minecraft:soul_sand_valley"
         },
-        {
+                {
           "parameters": {
             "erosion": -0.3,
             "depth": -0.125,
-            "weirdness": 0,
+            "weirdness": 0.0,
             "offset": 0.075,
             "temperature": 0.1,
             "humidity": -0.625,
@@ -41,37 +41,37 @@
         },
         {
           "parameters": {
-            "erosion": 0,
-            "depth": 0,
-            "weirdness": 0,
-            "offset": 0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0,
             "temperature": 0.4,
-            "humidity": 0,
-            "continentalness": 0
+            "humidity": 0.0,
+            "continentalness": 0.0
           },
           "biome": "minecraft:crimson_forest"
         },
         {
           "parameters": {
-            "erosion": 0,
-            "depth": 0,
-            "weirdness": 0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
             "offset": 0.375,
-            "temperature": 0,
+            "temperature": 0.0,
             "humidity": 0.5,
-            "continentalness": 0
+            "continentalness": 0.0
           },
           "biome": "minecraft:warped_forest"
         },
         {
           "parameters": {
-            "erosion": 0,
-            "depth": 0,
-            "weirdness": 0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
             "offset": 0.175,
             "temperature": -0.5,
-            "humidity": 0,
-            "continentalness": 0
+            "humidity": 0.0,
+            "continentalness": 0.0
           },
           "biome": "minecraft:basalt_deltas"
         },
@@ -79,10 +79,10 @@
           "parameters": {
             "erosion": 0.4,
             "depth": 0.125,
-            "weirdness": 0,
+            "weirdness": 0.0,
             "offset": 0.225,
             "temperature": -0.625,
-            "humidity": 0,
+            "humidity": 0.0,
             "continentalness": 0.4
           },
           "biome": "incendium:volcanic_deltas"
@@ -91,7 +91,7 @@
           "parameters": {
             "erosion": 0.3,
             "depth": 0.25,
-            "weirdness": 0,
+            "weirdness": 0.0,
             "offset": 0.15,
             "temperature": 0.3,
             "humidity": -0.125,
@@ -99,11 +99,11 @@
           },
           "biome": "incendium:infernal_dunes"
         },
-        {
+                {
           "parameters": {
             "erosion": 0.175,
             "depth": -0.365,
-            "weirdness": 0,
+            "weirdness": 0.0,
             "offset": 0.375,
             "temperature": 0.3,
             "humidity": 0.4,
@@ -115,19 +115,19 @@
           "parameters": {
             "erosion": -0.3,
             "depth": 0.1,
-            "weirdness": 0,
+            "weirdness": 0.0,
             "offset": 0.375,
-            "temperature": 0,
+            "temperature": 0.0,
             "humidity": 0.5,
-            "continentalness": 0
+            "continentalness": 0.0
           },
           "biome": "incendium:inverted_forest"
         },
-        {
+                {
           "parameters": {
             "erosion": 0.15,
             "depth": -0.5,
-            "weirdness": 0,
+            "weirdness": 0.0,
             "offset": 0.265,
             "temperature": -0.125,
             "humidity": -0.25,
@@ -139,10 +139,10 @@
           "parameters": {
             "erosion": 0.6,
             "depth": 0.125,
-            "weirdness": 0,
+            "weirdness": 0.0,
             "offset": 0.2,
             "temperature": 0.215,
-            "humidity": 0,
+            "humidity": 0.0,
             "continentalness": -0.25
           },
           "biome": "incendium:quartz_flats"
@@ -150,11 +150,11 @@
         {
           "parameters": {
             "erosion": 0.5,
-            "depth": 0,
-            "weirdness": 0,
+            "depth": 0.0,
+            "weirdness": 0.0,
             "offset": 0.2,
             "temperature": -0.3,
-            "humidity": 0,
+            "humidity": 0.0,
             "continentalness": -0.55
           },
           "biome": "incendium:ash_barrens"
@@ -162,6 +162,7 @@
       ],
       "type": "minecraft:multi_noise"
     },
+    "seed": 41,
     "settings": "minecraft:nether",
     "type": "minecraft:noise"
   }

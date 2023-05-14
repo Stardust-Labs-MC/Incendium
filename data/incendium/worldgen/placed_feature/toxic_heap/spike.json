@@ -22,13 +22,13 @@
         "noise": {
           "firstOctave": -6,
           "amplitudes": [
-            0.65,
-            1,
-            0,
-            0.5,
-            0.125,
-            0.5
-          ]
+                      0.65,
+                      1.0,
+                      0,
+                      0.5,
+                      0.125,
+                      0.5
+                    ]
         },
         "scale": 1,
         "states": [
@@ -47,7 +47,7 @@
           {
             "Name": "minecraft:green_terracotta"
           },
-          {
+                    {
             "Name": "minecraft:green_terracotta"
           },
           {
@@ -65,7 +65,7 @@
           {
             "Name": "minecraft:lime_terracotta"
           },
-          {
+                    {
             "Name": "minecraft:lime_terracotta"
           },
           {
@@ -74,7 +74,7 @@
           {
             "Name": "minecraft:yellow_terracotta"
           },
-          {
+                    {
             "Name": "minecraft:yellow_terracotta"
           },
           {
@@ -86,7 +86,7 @@
           {
             "Name": "minecraft:lime_terracotta"
           },
-          {
+                    {
             "Name": "minecraft:lime_terracotta"
           },
           {
@@ -101,7 +101,7 @@
           {
             "Name": "minecraft:green_terracotta"
           },
-          {
+                    {
             "Name": "minecraft:green_terracotta"
           },
           {
@@ -197,7 +197,7 @@
                     "firstOctave": -6,
                     "amplitudes": [
                       0.65,
-                      1,
+                      1.0,
                       0,
                       0.5,
                       0.125,
@@ -206,90 +206,90 @@
                   },
                   "scale": 1,
                   "states": [
+          {
+            "Name": "minecraft:slime_block"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
                     {
-                      "Name": "minecraft:slime_block"
-                    },
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:lime_terracotta"
+          },
+          {
+            "Name": "minecraft:lime_terracotta"
+          },
                     {
-                      "Name": "minecraft:green_terracotta"
-                    },
+            "Name": "minecraft:lime_terracotta"
+          },
+          {
+            "Name": "minecraft:yellow_terracotta"
+          },
+          {
+            "Name": "minecraft:air"
+          },
                     {
-                      "Name": "minecraft:green_terracotta"
-                    },
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:yellow_terracotta"
+          },
+          {
+            "Name": "minecraft:lime_terracotta"
+          },
+          {
+            "Name": "minecraft:lime_terracotta"
+          },
                     {
-                      "Name": "minecraft:green_terracotta"
-                    },
+            "Name": "minecraft:lime_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
                     {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:lime_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:lime_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:lime_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:yellow_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:air"
-                    },
-                    {
-                      "Name": "minecraft:air"
-                    },
-                    {
-                      "Name": "minecraft:yellow_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:lime_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:lime_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:lime_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:green_terracotta"
-                    },
-                    {
-                      "Name": "minecraft:slime_block"
-                    }
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:green_terracotta"
+          },
+          {
+            "Name": "minecraft:slime_block"
+          }
                   ]
                 }
               }
@@ -311,7 +311,7 @@
       "noise_factor": 100,
       "noise_offset": -0.15
     },
-    {
+        {
       "type": "minecraft:noise_based_count",
       "noise_to_count_ratio": 10,
       "noise_factor": 25,

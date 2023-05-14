@@ -5,10 +5,10 @@
       "nbt": "{Potion:\"minecraft:long_poison\"}"
     },
     "title": {
-      "translate":"incendium.advancement.toxic_heap.slime_poison.title","fallback":"Toxic Personality"
+      "translate": "%1$s%4733088$s","with":["Toxic Personality",{"translate":"incendium.advancement.toxic_heap.slime_poison.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.toxic_heap.slime_poison.desc","fallback":"Get poisoned by a toxic slime"
+      "translate": "%1$s%4733088$s","with":["Get poisoned by a toxic slime",{"translate":"incendium.advancement.toxic_heap.slime_poison.desc"}]
     },
     "frame": "task",
     "show_toast": true,

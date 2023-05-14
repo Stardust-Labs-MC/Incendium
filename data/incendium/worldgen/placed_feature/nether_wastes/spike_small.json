@@ -249,7 +249,7 @@
           "min_inclusive": -5,
           "max_inclusive": 5,
           "mean": 0,
-          "deviation": 1.5
+          "deviation": 1.5 
         }
       },
       "y_spread": {
@@ -293,7 +293,7 @@
         }
       }
     },
-    {
+        {
       "type": "minecraft:random_offset",
       "xz_spread": 0,
       "y_spread": {
@@ -315,8 +315,6 @@
         }
       }
     },
-    {
-      "type": "biome"
-    }
+    {"type":"biome"}
   ]
 }

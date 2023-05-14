@@ -109,8 +109,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "glowstone"
+                        "minecraft:smooth_quartz","glowstone"
                       ]
                     },
                     {
@@ -121,8 +120,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "glowstone"
+                        "minecraft:smooth_quartz","glowstone"
                       ]
                     },
                     {
@@ -133,8 +131,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "glowstone"
+                        "minecraft:smooth_quartz","glowstone"
                       ]
                     },
                     {
@@ -145,8 +142,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "glowstone"
+                        "minecraft:smooth_quartz","glowstone"
                       ]
                     },
                     {
@@ -157,8 +153,7 @@
                         1
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "glowstone"
+                        "minecraft:smooth_quartz","glowstone"
                       ]
                     },
                     {
@@ -169,8 +164,7 @@
                         -1
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "glowstone"
+                        "minecraft:smooth_quartz","glowstone"
                       ]
                     }
                   ]

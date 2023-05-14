@@ -39,15 +39,16 @@
       "from_value": 1.5,
       "to_value": -2
     },
-    "argument2": {
-      "type": "mul",
-      "argument1": 1.5,
-      "argument2": {
-        "type": "noise",
-        "noise": "incendium:climate/temperature",
-        "xz_scale": 0.25,
-        "y_scale": 0
-      }
+    "argument2": 
+    {
+      "type":"mul","argument1":1.5,
+      "argument2":
+    {
+      "type": "noise",
+      "noise": "incendium:climate/temperature",
+      "xz_scale": 0.25,
+      "y_scale": 0
     }
+  }
   }
 }

@@ -44,8 +44,7 @@
                   0
                 ],
                 "blocks": [
-                  "minecraft:netherrack",
-                  "red_sand"
+                  "minecraft:netherrack","red_sand"
                 ]
               }
             ]

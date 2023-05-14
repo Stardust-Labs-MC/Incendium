@@ -4,10 +4,10 @@
             "item": "minecraft:spectral_arrow"
         },
         "title": {
-            "translate":"incendium.advancement.quartz_flats.sanctum.vault_hunter.title","fallback":"Vault Hunter"
+            "translate": "%1$s%4733088$s", "with": ["Vault Hunter", {"translate": "incendium.advancement.quartz_flats.sanctum.vault_hunter.title"}]
         },
         "description": {
-            "translate":"incendium.advancement.quartz_flats.sanctum.vault_hunter.desc","fallback":"Infiltrate the Sanctum vault and silence its guards to remove Mining Fatigue"
+            "translate": "%1$s%4733088$s", "with": ["Infiltrate the Sanctum vault and silence its guards to remove Mining Fatigue", {"translate": "incendium.advancement.quartz_flats.sanctum.vault_hunter.desc"}]
         },
         "frame": "challenge",
         "show_toast": true,
@@ -27,7 +27,7 @@
                             "type": "minecraft:pillager",
                             "nbt": "{Tags:[\"in.sanctum_guardian\"]}",
                             "location": {
-                                "structure": "incendium:sanctum"
+                                "feature": "incendium:sanctum"
                             }
                         }
                     }

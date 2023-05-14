@@ -5,10 +5,10 @@
       "nbt": "{Enchantments:[{}]}"
     },
     "title": {
-      "translate":"incendium.advancement.infernal_dunes.inferno.root.title","fallback":"Beyond the Embers"
+      "translate": "%1$s%4733088$s","with":["Beyond the Embers",{"translate":"incendium.advancement.infernal_dunes.inferno.root.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.infernal_dunes.inferno.root.desc","fallback":"The shrine... demands a sacrifice"
+      "translate": "%1$s%4733088$s","with":["The shrine... demands a sacrifice",{"translate":"incendium.advancement.infernal_dunes.inferno.root.desc"}]
     },
     "frame": "goal",
     "show_toast": true,
@@ -22,7 +22,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "incendium:infernal_altar"
+            "feature": "incendium:infernal_altar"
           }
         }
       }

@@ -4,10 +4,10 @@
       "item": "redstone_lamp"
     },
     "title": {
-      "translate":"incendium.advancement.infernal_dunes.border_of_life.title","fallback":"Border of Life"
+      "translate": "%1$s%4733088$s","with":["Border of Life",{"translate":"incendium.advancement.infernal_dunes.border_of_life.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.infernal_dunes.border_of_life.desc","fallback":"Kill a Desert Blaze on the boundary of light and dark to get both of its drops"
+      "translate": "%1$s%4733088$s","with":["Kill a Desert Blaze on the boundary of light and dark to get both of its drops",{"translate":"incendium.advancement.infernal_dunes.border_of_life.desc"}]
     },
     "frame": "challenge",
     "show_toast": true,

@@ -1,10 +1,10 @@
 # from: entity/mob/init
 # @s: sentry
 
-data modify entity @s CustomName set value '{"translate":"incendium.mob.pipeline.sentry.name","fallback":"Pipeline Sentry","color":"yellow"}'
+data modify entity @s CustomName set value '{"translate": "%1$s%4733088$s","with":["Pipeline Sentry",{"translate":"incendium.mob.pipeline.sentry.name"}],"color":"yellow"}'
 #data modify entity @s CustomModelData set value 1460300
 
-execute if entity @s[tag=in.prime_sentry] run data modify entity @s CustomName set value '"translate":"incendium.mob.pipeline.guard.name","fallback":"Prime Pipeline Sentry"'
+execute if entity @s[tag=in.prime_sentry] run data modify entity @s CustomName set value '"translate": "%1$s%4733088$s","with":["Prime Pipeline Sentry",{"translate":"incendium.mob.pipeline.guard.name"}]'
 
 team join in.noname @s
 

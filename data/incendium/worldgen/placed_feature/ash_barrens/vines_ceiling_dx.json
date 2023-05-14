@@ -38,8 +38,6 @@
 			"noise_factor": 44,
 			"noise_offset": 1
 		},
-		{
-			"type": "biome"
-		}
+		{"type":"biome"}
 	]
 }

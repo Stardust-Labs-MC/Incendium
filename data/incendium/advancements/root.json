@@ -4,10 +4,10 @@
       "item": "crying_obsidian"
     },
     "title": {
-      "translate":"incendium.advancement.root.title","fallback":"Incendium"
+      "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium.advancement.root.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.root.desc","fallback":"Explore the terrifying, and rewarding, Incendium Nether"
+      "translate": "%1$s%4733088$s","with":["Explore the terrifying, and rewarding, Incendium Nether",{"translate":"incendium.advancement.root.desc"}]
     },
     "background": "minecraft:textures/block/polished_blackstone_bricks.png",
     "hidden": false,

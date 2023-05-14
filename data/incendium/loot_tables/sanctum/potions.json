@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.death_pot.name","fallback":"Death Potion",
+                "translate": "%1$s%4733088$s","with":["Death Potion",{"translate":"incendium.item.death_pot.name"}],
                 "color": "#b20306",
                 "italic": false
               }
@@ -21,19 +21,19 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate":"incendium.item.death_pot.desc1","fallback":"Make your choice, adventurous stranger",
+                  "translate": "%1$s%4733088$s","with":["Make your choice, adventurous stranger",{"translate":"incendium.item.death_pot.desc1"}],
                   "color": "red"
                 },
                 {
-                  "translate":"incendium.item.death_pot.desc2","fallback":"Drink the brew, and bide the danger,",
+                  "translate": "%1$s%4733088$s","with":["Drink the brew, and bide the danger,",{"translate":"incendium.item.death_pot.desc2"}],
                   "color": "red"
                 },
                 {
-                  "translate":"incendium.item.death_pot.desc3","fallback":"Or wonder till it drives you mad;",
+                  "translate": "%1$s%4733088$s","with":["Or wonder till it drives you mad;",{"translate":"incendium.item.death_pot.desc3"}],
                   "color": "red"
                 },
                 {
-                  "translate":"incendium.item.death_pot.desc4","fallback":"What would have happened if you had?",
+                  "translate": "%1$s%4733088$s","with":["What would have happened if you had?",{"translate":"incendium.item.death_pot.desc4"}],
                   "color": "red"
                 }
               ]

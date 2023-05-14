@@ -1,7 +1,7 @@
 # from: ../inferno/main
 # @s: inferno
 
-tellraw @a[tag=in.admin] {"translate":"incendium.inferno.spell.last.prepare","fallback":"Last: Prepare"}
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Last: Prepare",{"translate":"incendium.inferno.spell.last.prepare"}]}
 
 function incendium:hovering_inferno/spell/clear_all
 

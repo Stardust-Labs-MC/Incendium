@@ -61,7 +61,31 @@
                 {
                   "Name": "minecraft:cave_air"
                 },
+                                {
+                  "Name": "minecraft:cave_air"
+                },
                 {
+                  "Name": "minecraft:cave_air"
+                },
+                {
+                  "Name": "minecraft:cave_air"
+                },
+                {
+                  "Name": "minecraft:cave_air"
+                },
+                {
+                  "Name": "minecraft:cave_air"
+                },
+                {
+                  "Name": "minecraft:cave_air"
+                },
+                {
+                  "Name": "minecraft:cave_air"
+                },
+                {
+                  "Name": "minecraft:cave_air"
+                },
+                                {
                   "Name": "minecraft:cave_air"
                 },
                 {
@@ -86,6 +110,15 @@
                   "Name": "minecraft:cave_air"
                 },
                 {
+                  "Name": "minecraft:bone_block","Properties":{"axis":"x"}
+                },
+                {
+                  "Name": "minecraft:bone_block","Properties":{"axis":"y"}
+                },
+                {
+                  "Name": "minecraft:bone_block","Properties":{"axis":"z"}
+                },
+                                {
                   "Name": "minecraft:cave_air"
                 },
                 {
@@ -109,49 +142,7 @@
                 {
                   "Name": "minecraft:cave_air"
                 },
-                {
-                  "Name": "minecraft:bone_block",
-                  "Properties": {
-                    "axis": "x"
-                  }
-                },
-                {
-                  "Name": "minecraft:bone_block",
-                  "Properties": {
-                    "axis": "y"
-                  }
-                },
-                {
-                  "Name": "minecraft:bone_block",
-                  "Properties": {
-                    "axis": "z"
-                  }
-                },
-                {
-                  "Name": "minecraft:cave_air"
-                },
-                {
-                  "Name": "minecraft:cave_air"
-                },
-                {
-                  "Name": "minecraft:cave_air"
-                },
-                {
-                  "Name": "minecraft:cave_air"
-                },
-                {
-                  "Name": "minecraft:cave_air"
-                },
-                {
-                  "Name": "minecraft:cave_air"
-                },
-                {
-                  "Name": "minecraft:cave_air"
-                },
-                {
-                  "Name": "minecraft:cave_air"
-                },
-                {
+                                {
                   "Name": "minecraft:cave_air"
                 },
                 {
@@ -226,8 +217,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "bone_block"
+                        "minecraft:smooth_quartz","bone_block"
                       ]
                     },
                     {
@@ -238,8 +228,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "bone_block"
+                        "minecraft:smooth_quartz","bone_block"
                       ]
                     },
                     {
@@ -250,8 +239,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "bone_block"
+                        "minecraft:smooth_quartz","bone_block"
                       ]
                     },
                     {
@@ -262,8 +250,7 @@
                         0
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "bone_block"
+                        "minecraft:smooth_quartz","bone_block"
                       ]
                     },
                     {
@@ -274,8 +261,7 @@
                         1
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "bone_block"
+                        "minecraft:smooth_quartz","bone_block"
                       ]
                     },
                     {
@@ -286,8 +272,7 @@
                         -1
                       ],
                       "blocks": [
-                        "minecraft:smooth_quartz",
-                        "bone_block"
+                        "minecraft:smooth_quartz","bone_block"
                       ]
                     }
                   ]

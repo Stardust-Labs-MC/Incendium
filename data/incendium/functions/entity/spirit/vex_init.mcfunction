@@ -1,7 +1,7 @@
 # from: entity/mobs/init
 # @s: spirit
 
-data modify entity @s CustomName set value '{"translate":"incendium.mob.misc.spirit.name","fallback":"Restless Spirit","color":"#329e83"}'
+data modify entity @s CustomName set value '{"translate": "%1$s%4733088$s","with":["Restless Spirit",{"translate":"incendium.mob.misc.spirit.name"}],"color":"#329e83"}'
 team join in.noname @s
 
 attribute @s generic.movement_speed base set 1.1

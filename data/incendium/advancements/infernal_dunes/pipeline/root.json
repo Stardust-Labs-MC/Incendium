@@ -4,10 +4,10 @@
       "item": "hopper"
     },
     "title": {
-      "translate":"incendium.advancement.infernal_dunes.pipeline.root.title","fallback":"Pipe Dream"
+      "translate": "%1$s%4733088$s","with":["Pipe Dream",{"translate":"incendium.advancement.infernal_dunes.pipeline.root.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.infernal_dunes.pipeline.root.desc","fallback":"Enter a pipeline, but beware the dangerous sentry blazes"
+      "translate": "%1$s%4733088$s","with":["Enter a pipeline, but beware the dangerous sentry blazes",{"translate":"incendium.advancement.infernal_dunes.pipeline.root.desc"}]
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "incendium:pipeline"
+            "feature": "incendium:pipeline"
           }
         }
       }

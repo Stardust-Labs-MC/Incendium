@@ -4,10 +4,10 @@
       "item": "quartz_block"
     },
     "title": {
-      "translate":"incendium.advancement.quartz_flats.floor_is_tears.title","fallback":"The Floor is Tears"
+      "translate": "%1$s%4733088$s","with":["The Floor is Tears",{"translate":"incendium.advancement.quartz_flats.floor_is_tears.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.quartz_flats.floor_is_tears.desc","fallback":"Brave the Quartz Flats' frozen lava seas"
+      "translate": "%1$s%4733088$s","with":["Brave the Quartz Flats' frozen lava seas",{"translate":"incendium.advancement.quartz_flats.floor_is_tears.desc"}]
     },
     "frame": "task",
     "show_toast": true,

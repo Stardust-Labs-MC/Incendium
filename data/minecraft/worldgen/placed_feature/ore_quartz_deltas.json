@@ -1,7 +1,7 @@
 {
   "feature": "minecraft:ore_quartz",
   "placement": [
-    {
+        {
       "type": "count",
       "count": 2
     },

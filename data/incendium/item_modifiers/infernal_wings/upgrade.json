@@ -3,23 +3,23 @@
       "function": "minecraft:set_lore",
       "lore": [
         {
-          "translate":"incendium.item.infernal_wings.desc1","fallback":"A pair of armored wings",
+          "translate": "%1$s%4733088$s","with":["A pair of armored wings",{"translate":"incendium.item.infernal_wings.desc1"}],
           "color": "#ff1234",
           "italic": true
         },
         {
-          "translate":"incendium.item.infernal_wings.desc2","fallback":"forged from the scraps",
+          "translate": "%1$s%4733088$s","with":["forged from the scraps",{"translate":"incendium.item.infernal_wings.desc2"}],
           "color": "#ff1234",
           "italic": true
         },
         {
-          "translate":"incendium.item.infernal_wings.desc3","fallback":"of the Hovering Inferno's shields",
+          "translate": "%1$s%4733088$s","with":["of the Hovering Inferno's shields",{"translate":"incendium.item.infernal_wings.desc3"}],
           "color": "#ff1234",
           "italic": true
         },
         "",
         {
-          "translate":"incendium","fallback":"Incendium",
+          "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
           "color": "#FF8000",
           "italic": true
         }
@@ -29,7 +29,7 @@
     {
       "function": "minecraft:set_name",
       "name": {
-        "translate":"incendium.item.infernal_wings.name","fallback":"Infernal Wings",
+        "translate": "%1$s%4733088$s","with":["Infernal Wings",{"translate":"incendium.item.infernal_wings.name"}],
         "color": "#ff3333",
         "italic": false
       }

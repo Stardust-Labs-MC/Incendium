@@ -4,10 +4,10 @@
       "item": "trapped_chest"
     },
     "title": {
-      "translate":"incendium.advancement.quartz_flats.torte.kitchen_treasure.title","fallback":"Kitchen's Treasure"
+      "translate": "%1$s%4733088$s","with":["Kitchen's Treasure",{"translate":"incendium.advancement.quartz_flats.torte.kitchen_treasure.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.quartz_flats.torte.kitchen_treasure.desc","fallback":"Find the hidden treasure in the Quartz Kitchen"
+      "translate": "%1$s%4733088$s","with":["Find the hidden treasure in the Quartz Kitchen",{"translate":"incendium.advancement.quartz_flats.torte.kitchen_treasure.desc"}]
     },
     "frame": "goal",
     "show_toast": true,

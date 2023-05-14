@@ -14,10 +14,8 @@
 				"absolute": 31
 			}
 		},
-		{
-			"type": "biome"
-		},
-		{
+		{"type":"biome"},
+				{
 			"type": "minecraft:height_range",
 			"height": {
 				"absolute": 192

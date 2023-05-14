@@ -12,24 +12,24 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate":"incendium.item.battle_helm.desc1","fallback":"You can hide, but you can't",
+                  "translate": "%1$s%4733088$s","with":["You can hide, but you can't",{"translate":"incendium.item.battle_helm.desc1"}],
                   "color": "#ccbb88",
                   "italic": true
                 },
                 {
-                  "translate":"incendium.item.battle_helm.desc2","fallback":"outrun TheDancyScout",
+                  "translate": "%1$s%4733088$s","with":["outrun TheDancyScout",{"translate":"incendium.item.battle_helm.desc2"}],
                   "color": "#ccbb88",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium.system.patron_item","fallback":"Patron Item",
+                  "translate": "%1$s%4733088$s","with":["Patron Item",{"translate":"incendium.system.patron_item"}],
                   "color": "#333333",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -40,7 +40,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.battle_helm.name","fallback":"Scout's Battle Helm",
+                "translate": "%1$s%4733088$s","with":["Scout's Battle Helm",{"translate":"incendium.item.battle_helm.name"}],
                 "color": "#ff9944",
                 "italic": false
               }

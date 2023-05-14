@@ -5,10 +5,10 @@
       "nbt": "{Enchantments:[]}"
     },
     "title": {
-      "translate":"incendium.advancement.infernal_dunes.inferno.kill.title","fallback":"Fallen to Ashes"
+      "translate": "%1$s%4733088$s","with":["Fallen to Ashes",{"translate":"incendium.advancement.infernal_dunes.inferno.kill.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.infernal_dunes.inferno.kill.desc","fallback":"Survive the Inferno's last spell and claim your reward"
+      "translate": "%1$s%4733088$s","with":["Survive the Inferno's last spell and claim your reward",{"translate":"incendium.advancement.infernal_dunes.inferno.kill.desc"}]
     },
     "frame": "challenge",
     "show_toast": true,

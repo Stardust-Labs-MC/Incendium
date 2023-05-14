@@ -1,7 +1,7 @@
 {
   "feature": "minecraft:basalt_pillar",
   "placement": [
-    {
+        {
       "type": "count",
       "count": 2
     },

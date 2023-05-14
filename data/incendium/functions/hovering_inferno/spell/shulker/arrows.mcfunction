@@ -1,6 +1,6 @@
 # summons arrows
 
-tellraw @a[tag=in.admin] {"translate":"incendium.inferno.spell.shulker.arrows","fallback":"Shulker: Arrows"}
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Shulker: Arrows",{"translate":"incendium.inferno.spell.shulker.arrows"}]}
 
 playsound minecraft:entity.wither.shoot player @a[distance=..50] ~ ~ ~ 5 0.5 1
 particle minecraft:flame ~ ~ ~ 0 0 0 0.4 300 force

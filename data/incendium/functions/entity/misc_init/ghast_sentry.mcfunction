@@ -2,7 +2,7 @@
 # @s: ghast sentry
 
 tag @s add in.checked
-data modify entity @s CustomName set value '{"translate":"incendium.mob.reactor.sentry.name","fallback":"Ghast Sentry"}'
+data modify entity @s CustomName set value '{"translate": "%1$s%4733088$s","with":["Ghast Sentry",{"translate":"incendium.mob.reactor.sentry.name"}]}'
 team join in.noname @s
 
 execute at @s run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 air replace minecraft:basalt

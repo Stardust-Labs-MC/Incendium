@@ -4,10 +4,10 @@
       "item": "barrel"
     },
     "title": {
-      "translate":"incendium.advancement.infernal_dunes.pipeline.pipeline_treasure.title","fallback":"Plumber's Plunder"
+      "translate": "%1$s%4733088$s","with":["Plumber's Plunder",{"translate":"incendium.advancement.infernal_dunes.pipeline.pipeline_treasure.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.infernal_dunes.pipeline.pipeline_treasure.desc","fallback":"Retrieve a Pipeline's hidden treasure"
+      "translate": "%1$s%4733088$s","with":["Retrieve a Pipeline's hidden treasure",{"translate":"incendium.advancement.infernal_dunes.pipeline.pipeline_treasure.desc"}]
     },
     "frame": "challenge",
     "show_toast": true,

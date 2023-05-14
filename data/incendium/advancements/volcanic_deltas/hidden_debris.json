@@ -4,10 +4,10 @@
       "item": "ancient_debris"
     },
     "title": {
-      "translate":"incendium.advancement.volcanic_deltas.hidden_debris.title","fallback":"Treacherous Heights"
+      "translate": "%1$s%4733088$s","with":["Treacherous Heights",{"translate":"incendium.advancement.volcanic_deltas.hidden_debris.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.volcanic_deltas.hidden_debris.desc","fallback":"Mine the exposed ancient debris in the height of the Volcanic Deltas"
+      "translate": "%1$s%4733088$s","with":["Mine the exposed ancient debris in the height of the Volcanic Deltas",{"translate":"incendium.advancement.volcanic_deltas.hidden_debris.desc"}]
     },
     "frame": "challenge",
     "show_toast": true,

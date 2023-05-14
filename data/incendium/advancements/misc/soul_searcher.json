@@ -5,10 +5,10 @@
       "nbt": "{Enchantments:[]}"
     },
     "title": {
-      "translate":"incendium.advancement.misc.soul_searcher.title","fallback":"Soul Searcher"
+      "translate": "%1$s%4733088$s","with":["Soul Searcher",{"translate":"incendium.advancement.misc.soul_searcher.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.misc.soul_searcher.desc","fallback":"Discover every single Incendium biome"
+      "translate": "%1$s%4733088$s","with":["Discover every single Incendium biome",{"translate":"incendium.advancement.misc.soul_searcher.desc"}]
     },
     "frame": "challenge",
     "show_toast": true,

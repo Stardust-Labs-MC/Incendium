@@ -5,10 +5,10 @@
       "nbt": "{Enchantments:[]}"
     },
     "title": {
-      "translate":"incendium.advancement.withered_forest.chain_armor.title","fallback":"Ghostbuster"
+      "translate": "%1$s%4733088$s","with":["Ghostbuster",{"translate":"incendium.advancement.withered_forest.chain_armor.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.withered_forest.chain_armor.desc","fallback":"Put on some chain armor and use it to dispel a restless spirit"
+      "translate": "%1$s%4733088$s","with":["Put on some chain armor and use it to dispel a restless spirit",{"translate":"incendium.advancement.withered_forest.chain_armor.desc"}]
     },
     "frame": "challenge",
     "show_toast": true,

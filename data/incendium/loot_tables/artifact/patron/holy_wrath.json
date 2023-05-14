@@ -12,13 +12,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate":"incendium.item.holy_wrath.desc1","fallback":"Spawn a spiral of fireballs",
+                  "translate": "%1$s%4733088$s","with":["Spawn a spiral of fireballs",{"translate":"incendium.item.holy_wrath.desc1"}],
                   "color": "#ccbb88",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -29,7 +29,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.holy_wrath.name","fallback":"Holy Wrath",
+                "translate": "%1$s%4733088$s","with":["Holy Wrath",{"translate":"incendium.item.holy_wrath.name"}],
                 "color": "#ffee77",
                 "italic": false
               }

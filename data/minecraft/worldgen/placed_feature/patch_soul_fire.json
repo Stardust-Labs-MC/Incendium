@@ -1,7 +1,7 @@
 {
   "feature": "minecraft:patch_soul_fire",
   "placement": [
-    {
+        {
       "type": "count",
       "count": 2
     },

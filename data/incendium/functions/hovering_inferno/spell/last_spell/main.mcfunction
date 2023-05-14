@@ -1,7 +1,7 @@
 # from: ./prepare
 # @s: inferno
 
-tellraw @a[tag=in.admin] {"translate":"incendium.inferno.spell.last.main","fallback":"Last: Main"}
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Last: Main",{"translate":"incendium.inferno.spell.last.main"}]}
 
 execute positioned ~ 50 ~ at @e[type=marker,tag=in.altar,sort=nearest,distance=..50] run tp @s ~ ~1.5 ~
 

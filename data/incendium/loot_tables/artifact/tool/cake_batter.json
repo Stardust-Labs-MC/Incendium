@@ -27,13 +27,13 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate":"incendium.item.cake.desc1","fallback":"Torte's infamous deadly cake!",
+                  "translate": "%1$s%4733088$s","with":["Torte's infamous deadly cake!",{"translate":"incendium.item.cake.desc1"}],
                   "color": "#ff69b4",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -47,7 +47,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate":"incendium.item.cake.name","fallback":"Cake Batter",
+                "translate": "%1$s%4733088$s","with":["Cake Batter",{"translate":"incendium.item.cake.name"}],
                 "color": "#ffddf4",
                 "italic": false
               }

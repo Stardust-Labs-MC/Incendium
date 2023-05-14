@@ -1,4 +1,8 @@
 {
+  "config": {
+    "start_pool": "incendium:sanctum/top",
+    "size": 6
+  },
   "biomes": "#incendium:structure/has_sanctum",
   "spawn_overrides": {
     "monster": {
@@ -13,13 +17,5 @@
       ]
     }
   },
-  "type": "minecraft:jigsaw",
-  "start_pool": "incendium:sanctum/top",
-  "size": 6,
-  "step": "underground_decoration",
-  "start_height": {
-    "absolute": 33
-  },
-  "max_distance_from_center": 80,
-  "use_expansion_hack": false
+  "type": "minecraft:bastion_remnant"
 }

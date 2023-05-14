@@ -4,10 +4,10 @@
       "item": "blaze_powder"
     },
     "title": {
-      "translate":"incendium.advancement.infernal_dunes.inferno.run.title","fallback":"Run."
+      "translate": "%1$s%4733088$s","with":["Run.",{"translate":"incendium.advancement.infernal_dunes.inferno.run.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.infernal_dunes.inferno.run.desc","fallback":"You can't kill the Inferno. Just survive to win"
+      "translate": "%1$s%4733088$s","with":["You can't kill the Inferno. Just survive to win",{"translate":"incendium.advancement.infernal_dunes.inferno.run.desc"}]
     },
     "frame": "task",
     "show_toast": true,

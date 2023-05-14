@@ -1,6 +1,6 @@
 # last_spell dash?
 
-tellraw @a[tag=in.admin] {"translate":"incendium.inferno.spell.last.dash","fallback":"Last: Dash"}
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Last: Dash",{"translate":"incendium.inferno.spell.last.dash"}]}
 
 scoreboard players set $dash in.inferno 0
 execute as @e[type=blaze,tag=in.hovering_inferno,limit=1] at @s facing entity @p[tag=in.survival_player,distance=..50] eyes run tp @s ~ ~ ~ ~ ~

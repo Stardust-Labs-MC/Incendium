@@ -11,13 +11,13 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate":"incendium.item.chilling_blade.desc1","fallback":"Freezes souls to the core",
+                  "translate": "%1$s%4733088$s","with":["Freezes souls to the core",{"translate":"incendium.item.chilling_blade.desc1"}],
                   "color": "#0055aa",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -31,7 +31,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate":"incendium.item.chilling_blade.name","fallback":"Chilling Blade",
+                "translate": "%1$s%4733088$s","with":["Chilling Blade",{"translate":"incendium.item.chilling_blade.name"}],
                 "color": "#0088ff",
                 "italic": false
               }

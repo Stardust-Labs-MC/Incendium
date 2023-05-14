@@ -1,7 +1,6 @@
 {
   "description": "All mob entities",
   "values": [
-    "minecraft:allay",
     "minecraft:axolotl",
     "minecraft:bat",
     "minecraft:chicken",

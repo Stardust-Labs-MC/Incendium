@@ -24,8 +24,6 @@
 				}
 			}
 		},
-		{
-			"type": "biome"
-		}
+		{"type":"biome"}
 	]
 }

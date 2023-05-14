@@ -17,7 +17,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate":"incendium.item.withersbane.name","fallback":"Withersbane",
+                "translate": "%1$s%4733088$s","with":["Withersbane",{"translate":"incendium.item.withersbane.name"}],
                 "color": "#ffee99",
                 "italic": false
               }
@@ -26,18 +26,18 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate":"incendium.item.withersbane.desc1","fallback":"An ancient blade to smite",
+                  "translate": "%1$s%4733088$s","with":["An ancient blade to smite",{"translate":"incendium.item.withersbane.desc1"}],
                   "color": "#ffdd66",
                   "italic": true
                 },
                 {
-                  "translate":"incendium.item.withersbane.desc2","fallback":"the impurity from the Nether",
+                  "translate": "%1$s%4733088$s","with":["the impurity from the Nether",{"translate":"incendium.item.withersbane.desc2"}],
                   "color": "#ffdd66",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }

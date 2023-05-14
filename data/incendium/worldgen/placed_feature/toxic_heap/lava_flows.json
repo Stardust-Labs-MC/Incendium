@@ -58,10 +58,7 @@
                   0,
                   0
                 ],
-                "blocks": [
-                  "minecraft:yellow_terracotta",
-                  "lava"
-                ]
+                "blocks": ["minecraft:yellow_terracotta","lava"]
               },
               {
                 "type": "minecraft:matching_blocks",
@@ -70,10 +67,7 @@
                   0,
                   1
                 ],
-                "blocks": [
-                  "minecraft:yellow_terracotta",
-                  "lava"
-                ]
+                "blocks": ["minecraft:yellow_terracotta","lava"]
               },
               {
                 "type": "minecraft:matching_blocks",
@@ -82,10 +76,7 @@
                   0,
                   0
                 ],
-                "blocks": [
-                  "minecraft:yellow_terracotta",
-                  "lava"
-                ]
+                "blocks": ["minecraft:yellow_terracotta","lava"]
               },
               {
                 "type": "minecraft:matching_blocks",
@@ -94,27 +85,20 @@
                   0,
                   -1
                 ],
-                "blocks": [
-                  "minecraft:yellow_terracotta",
-                  "lava"
-                ]
+                "blocks": ["minecraft:yellow_terracotta","lava"]
               },
+              {"type":"not",
+                "predicate":
               {
-                "type": "not",
-                "predicate": {
-                  "type": "minecraft:matching_blocks",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
-                  "blocks": [
-                    "minecraft:air",
-                    "cave_air",
-                    "lava"
-                  ]
-                }
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": ["minecraft:air","cave_air","lava"]
               }
+            }
             ]
           }
         ]

@@ -3,7 +3,7 @@
 
 tag @s add in.checked
 
-data modify entity @s CustomName set value '{"translate":"incendium.mob.village.brewer.name","fallback":"Village Brewer"}'
+data modify entity @s CustomName set value '{"translate": "%1$s%4733088$s","with":["Village Brewer",{"translate":"incendium.mob.village.brewer.name"}]}'
 data modify entity @s DeathLootTable set value "incendium:cvill/mob/brewer"
 data modify entity @s CannotHunt set value 1b
 data modify entity @s ArmorItems set value [{}, {}, {}, {}]

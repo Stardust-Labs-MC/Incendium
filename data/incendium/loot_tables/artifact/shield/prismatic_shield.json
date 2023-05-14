@@ -30,18 +30,18 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate":"incendium.item.prismatic_shield.desc1","fallback":"Reflects attacks with a",
+                  "translate": "%1$s%4733088$s","with":["Reflects attacks with a",{"translate":"incendium.item.prismatic_shield.desc1"}],
                   "color": "#88aaff",
                   "italic": false
                 },
                 {
-                  "translate":"incendium.item.prismatic_shield.desc2","fallback":"powerful spark of light",
+                  "translate": "%1$s%4733088$s","with":["powerful spark of light",{"translate":"incendium.item.prismatic_shield.desc2"}],
                   "color": "#88aaff",
                   "italic": false
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -51,7 +51,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.prismatic_shield.name","fallback":"Prismatic Shield",
+                "translate": "%1$s%4733088$s","with":["Prismatic Shield",{"translate":"incendium.item.prismatic_shield.name"}],
                 "italic": false,
                 "color": "#bbddff"
               }
@@ -89,18 +89,18 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate":"incendium.item.prismatic_shield.desc1","fallback":"Reflects attacks with a",
+                  "translate": "%1$s%4733088$s","with":["Reflects attacks with a",{"translate":"incendium.item.prismatic_shield.desc1"}],
                   "color": "#88aaff",
                   "italic": false
                 },
                 {
-                  "translate":"incendium.item.prismatic_shield.desc2","fallback":"powerful spark of light",
+                  "translate": "%1$s%4733088$s","with":["powerful spark of light",{"translate":"incendium.item.prismatic_shield.desc2"}],
                   "color": "#88aaff",
                   "italic": false
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -110,7 +110,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.prismatic_shield.name","fallback":"Prismatic Shield",
+                "translate": "%1$s%4733088$s","with":["Prismatic Shield",{"translate":"incendium.item.prismatic_shield.name"}],
                 "italic": false,
                 "color": "#bbddff"
               }

@@ -12,29 +12,29 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate":"incendium.item.returning_scroll.desc1","fallback":"A long forgotten technique",
+                  "translate": "%1$s%4733088$s","with":["A long forgotten technique",{"translate":"incendium.item.returning_scroll.desc1"}],
                   "color": "#D393F5",
                   "italic": true
                 },
                 {
-                  "translate":"incendium.item.returning_scroll.desc2","fallback":"to transport back to the",
+                  "translate": "%1$s%4733088$s","with":["to transport back to the",{"translate":"incendium.item.returning_scroll.desc2"}],
                   "color": "#D393F5",
                   "italic": true
                 },
                 {
-                  "translate":"incendium.item.returning_scroll.desc3","fallback":"overworld, where it all began...",
+                  "translate": "%1$s%4733088$s","with":["overworld, where it all began...",{"translate":"incendium.item.returning_scroll.desc3"}],
                   "color": "#D393F5",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium.system.patron_item","fallback":"Patron Item",
+                  "translate": "%1$s%4733088$s","with":["Patron Item",{"translate":"incendium.system.patron_item"}],
                   "color": "#333333",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -45,7 +45,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.returning_scroll.name","fallback":"Scroll of Returning",
+                "translate": "%1$s%4733088$s","with":["Scroll of Returning",{"translate":"incendium.item.returning_scroll.name"}],
                 "color": "#7F32A9",
                 "italic": false
               }

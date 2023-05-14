@@ -41,13 +41,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate":"incendium.item.scarlet_dagger.desc1","fallback":"Drains the life of its slain victims",
+                  "translate": "%1$s%4733088$s","with":["Drains the life of its slain victims",{"translate":"incendium.item.scarlet_dagger.desc1"}],
                   "color": "#990000",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -57,7 +57,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.scarlet_dagger.name","fallback":"Scarlet Dagger",
+                "translate": "%1$s%4733088$s","with":["Scarlet Dagger",{"translate":"incendium.item.scarlet_dagger.name"}],
                 "color": "#ff0000",
                 "italic": false
               }

@@ -4,10 +4,10 @@
       "item": "minecraft:elytra"
     },
     "title": {
-      "translate":"incendium.advancement.infernal_dunes.inferno.armored_wings.title","fallback":"Forged in Flames"
+      "translate": "%1$s%4733088$s","with":["Forged in Flames",{"translate":"incendium.advancement.infernal_dunes.inferno.armored_wings.title"}]
     },
     "description": {
-      "translate":"incendium.advancement.infernal_dunes.inferno.armored_wings.desc","fallback":"Use the Infernal Feather to upgrade your elytra in a Smithing Table"
+      "translate": "%1$s%4733088$s","with":["Use the Infernal Feather to upgrade your elytra in a Smithing Table",{"translate":"incendium.advancement.infernal_dunes.inferno.armored_wings.desc"}]
     },
     "frame": "task",
     "show_toast": true,

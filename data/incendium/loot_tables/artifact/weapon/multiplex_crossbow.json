@@ -11,7 +11,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.multiplex.name","fallback":"Multiplex",
+                "translate": "%1$s%4733088$s","with":["Multiplex",{"translate":"incendium.item.multiplex.name"}],
                 "color": "#ccbb44",
                 "italic": false
               }
@@ -21,18 +21,18 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate":"incendium.item.multiplex.desc1","fallback":"Shoots a blast of fiery",
+                  "translate": "%1$s%4733088$s","with":["Shoots a blast of fiery",{"translate":"incendium.item.multiplex.desc1"}],
                   "color": "#ddcc55",
                   "italic": true
                 },
                 {
-                  "translate":"incendium.item.multiplex.desc2","fallback":"arrows at a short-range",
+                  "translate": "%1$s%4733088$s","with":["arrows at a short-range",{"translate":"incendium.item.multiplex.desc2"}],
                   "color": "#ddcc55",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }

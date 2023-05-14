@@ -1,6 +1,6 @@
 # bubbles!
 
-tellraw @a[tag=in.admin] {"translate":"incendium.inferno.spell.bubbles.normal","fallback":"Bubbles: Normal"}
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Bubbles: Normal",{"translate":"incendium.inferno.spell.bubbles.normal"}]}
 
 schedule clear incendium:hovering_inferno/spell/shulker/last
 function incendium:hovering_inferno/spell/kill/bullets

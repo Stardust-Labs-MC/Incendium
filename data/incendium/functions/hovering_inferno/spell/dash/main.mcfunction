@@ -1,6 +1,6 @@
 # Dash
 
-tellraw @a[tag=in.admin] {"translate":"incendium.inferno.spell.dash.normal","fallback":"Dash: Normal"}
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Dash: Normal",{"translate":"incendium.inferno.spell.dash.normal"}]}
 
 scoreboard players set $dash in.inferno 0
 

@@ -47,19 +47,19 @@
                     "italic": true
                   },
                   {
-                    "translate":"incendium.item.warping_witherblade.desc1","fallback":"For in life all things return",
+                    "translate": "%1$s%4733088$s","with":["For in life all things return",{"translate":"incendium.item.warping_witherblade.desc1"}],
                     "color": "#006666",
                     "italic": true
                   }
                 ],
                 {
-                  "translate":"incendium.item.warping_witherblade.desc2","fallback":"to death, and in death all things",
+                  "translate": "%1$s%4733088$s","with":["to death, and in death all things",{"translate":"incendium.item.warping_witherblade.desc2"}],
                   "color": "#006666",
                   "italic": true
                 },
                 [
                   {
-                    "translate":"incendium.item.warping_witherblade.desc3","fallback":"return to the shadow of",
+                    "translate": "%1$s%4733088$s","with":["return to the shadow of",{"translate":"incendium.item.warping_witherblade.desc3"}],
                     "color": "#006666",
                     "italic": true
                   },
@@ -79,13 +79,13 @@
                 ],
                 "",
                 {
-                  "translate":"incendium.system.patron_item","fallback":"Patron Item",
+                  "translate": "%1$s%4733088$s","with":["Patron Item",{"translate":"incendium.system.patron_item"}],
                   "color": "#333333",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }
@@ -96,7 +96,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.warping_witherblade.name","fallback":"Warping Witherblade",
+                "translate": "%1$s%4733088$s","with":["Warping Witherblade",{"translate":"incendium.item.warping_witherblade.name"}],
                 "color": "#330099",
                 "italic": false
               }

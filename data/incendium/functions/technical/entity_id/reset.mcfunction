@@ -18,4 +18,4 @@ tag @e[tag=in.eid_12] remove in.eid_12
 tag @e[tag=in.eid_13] remove in.eid_13
 tag @e[tag=in.eid_14] remove in.eid_14
 
-tellraw @a[tag=in.admin,tag=in.debug] {"translate":"incendium.system.eid.reset","fallback":"Resetting entity IDs", "color": "#ff8000"}
+tellraw @a[tag=in.admin,tag=in.debug] {"translate": "%1$s%4733088$s","with":["Resetting entity IDs",{"translate":"incendium.system.eid.reset"}], "color": "#ff8000"}

@@ -44,7 +44,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate":"incendium.mob.quartz.torte.name","fallback":"Torte",
+                "translate": "%1$s%4733088$s","with":["Torte",{"translate":"incendium.mob.quartz.torte.name"}],
                 "color": "#ffccbb",
                 "italic": false
               }

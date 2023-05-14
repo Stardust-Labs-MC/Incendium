@@ -1,7 +1,7 @@
 {
   "feature": "minecraft:ore_nether_gold",
   "placement": [
-    {
+        {
       "type": "count",
       "count": 2
     },

@@ -11,7 +11,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate":"incendium.item.blazing_hatchet.name","fallback":"Blazing Hatchet",
+                "translate": "%1$s%4733088$s","with":["Blazing Hatchet",{"translate":"incendium.item.blazing_hatchet.name"}],
                 "italic": false,
                 "color": "#ff6622"
               }
@@ -20,13 +20,13 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate":"incendium.item.blazing_hatchet.desc1","fallback":"Packs a fiery, yet powerful punch",
+                  "translate": "%1$s%4733088$s","with":["Packs a fiery, yet powerful punch",{"translate":"incendium.item.blazing_hatchet.desc1"}],
                   "color": "#ff8844",
                   "italic": true
                 },
                 "",
                 {
-                  "translate":"incendium","fallback":"Incendium",
+                  "translate": "%1$s%4733088$s","with":["Incendium",{"translate":"incendium"}],
                   "color": "#FF8000",
                   "italic": true
                 }

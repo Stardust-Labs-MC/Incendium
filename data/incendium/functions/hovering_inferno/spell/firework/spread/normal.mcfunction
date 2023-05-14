@@ -1,6 +1,6 @@
 # firework attack normal
 
-tellraw @a[tag=in.admin] {"translate":"incendium.inferno.spell.firework.spread","fallback":"Firework: Spread"}
+tellraw @a[tag=in.admin] {"translate": "%1$s%4733088$s","with":["Firework: Spread",{"translate":"incendium.inferno.spell.firework.spread"}]}
 
 function incendium:hovering_inferno/spell/kill/bullets
 playsound minecraft:entity.evoker.prepare_summon player @a[distance=..40] ~ ~ ~ 2 0.9
