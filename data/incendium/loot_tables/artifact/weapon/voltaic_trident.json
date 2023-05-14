@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:loyalty": 1
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "d",
+                  "amount": {
+                    "min": 11,
+                    "max": 13
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate":"incendium.item.voltaic_trident.desc1","fallback":"Feel its electrical power",
+                  "color": "#4400aa",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium","fallback":"Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate":"incendium.item.voltaic_trident.name","fallback":"Voltaic Trident",
+                "color": "#8844ff",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1450006,incendium:{item:'voltaic_trident'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

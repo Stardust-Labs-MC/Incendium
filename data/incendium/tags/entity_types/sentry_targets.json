@@ -1,0 +1,7 @@
+{
+  "description": "sentry targets",
+  "values": [
+    "minecraft:player",
+    "minecraft:armor_stand"
+  ]
+}

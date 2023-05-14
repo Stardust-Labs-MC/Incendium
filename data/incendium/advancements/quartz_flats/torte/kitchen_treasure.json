@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "trapped_chest"
+    },
+    "title": {
+      "translate":"incendium.advancement.quartz_flats.torte.kitchen_treasure.title","fallback":"Kitchen's Treasure"
+    },
+    "description": {
+      "translate":"incendium.advancement.quartz_flats.torte.kitchen_treasure.desc","fallback":"Find the hidden treasure in the Quartz Kitchen"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:quartz_flats/torte/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:quartz_flats/kitchen_extra_treasure"
+      }
+    }
+  }
+}

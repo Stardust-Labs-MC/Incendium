@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "incendium:holding/sentrys_wrath/offhand"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "incendium:holding/sentrys_wrath/mainhand"
+    }
+  ]
+}

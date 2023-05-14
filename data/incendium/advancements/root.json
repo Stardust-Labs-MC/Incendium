@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "crying_obsidian"
+    },
+    "title": {
+      "translate":"incendium.advancement.root.title","fallback":"Incendium"
+    },
+    "description": {
+      "translate":"incendium.advancement.root.desc","fallback":"Explore the terrifying, and rewarding, Incendium Nether"
+    },
+    "background": "minecraft:textures/block/polished_blackstone_bricks.png",
+    "hidden": false,
+    "frame": "task",
+    "show_toast": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  }
+}

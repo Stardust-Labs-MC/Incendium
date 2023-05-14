@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Spawn (1/5) \]](bold, #FF3F0D)
+[→](bold, gold) [Sanctum Apostle](#FF870F, run="/function incendium:admin/spawn/sanctum/apostle")
+[→](bold, gold) [Sanctum Cultist](#E85302, run="/function incendium:admin/spawn/sanctum/cultist")
+[→](bold, gold) [Sanctum Guardian](#FF870F, run="/function incendium:admin/spawn/sanctum/guardian")
+[→](bold, gold) [Sanctum Illusionist](#E85302, run="/function incendium:admin/spawn/sanctum/illusionist")
+[→](bold, gold) [Sanctum Inquisitor](#FF870F, run="/function incendium:admin/spawn/sanctum/inquisotr")
+[→](bold, gold) [Sanctum Protector](#E85302, run="/function incendium:admin/spawn/sanctum/protector")
+[→](bold, gold) [Sanctum Ritualist](#FF870F, run="/function incendium:admin/spawn/sanctum/ritualist")
+[← Home](bold, #FF3F0D, run="/function incendium:admin/menu")  [|](bold, gray)  [Next →](bold, #FF3F0D, run="/function incendium:admin/menu/spawn/2")

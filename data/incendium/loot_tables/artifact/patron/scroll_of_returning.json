@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate":"incendium.item.returning_scroll.desc1","fallback":"A long forgotten technique",
+                  "color": "#D393F5",
+                  "italic": true
+                },
+                {
+                  "translate":"incendium.item.returning_scroll.desc2","fallback":"to transport back to the",
+                  "color": "#D393F5",
+                  "italic": true
+                },
+                {
+                  "translate":"incendium.item.returning_scroll.desc3","fallback":"overworld, where it all began...",
+                  "color": "#D393F5",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium.system.patron_item","fallback":"Patron Item",
+                  "color": "#333333",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium","fallback":"Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate":"incendium.item.returning_scroll.name","fallback":"Scroll of Returning",
+                "color": "#7F32A9",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1450403,incendium:{item:'scroll_of_returning'}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:horse.jump_strength",
+                  "name": "",
+                  "amount": 0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+function incendium:admin/menu

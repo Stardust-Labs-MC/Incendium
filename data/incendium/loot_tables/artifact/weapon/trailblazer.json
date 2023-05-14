@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate":"incendium.item.trailblazer.desc1","fallback":"Fires more powerful arrows",
+                  "color": "#C46731",
+                  "italic": true
+                },
+                {
+                  "translate":"incendium.item.trailblazer.desc2","fallback":"the longer you pull the bow.",
+                  "color": "#C46731",
+                  "italic": true
+                },
+                {
+                  "translate":"incendium.item.trailblazer.desc3","fallback":"Spectral arrows leave",
+                  "color": "#C46731",
+                  "italic": true
+                },
+                {
+                  "translate":"incendium.item.trailblazer.desc4","fallback":"a trail of blaze.",
+                  "color": "#C46731",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium","fallback":"Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate":"incendium.item.trailblazer.name","fallback":"Trailblazer",
+                "color": "#F7823E",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1450104,incendium:{item:'trailblazer'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

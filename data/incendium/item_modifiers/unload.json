@@ -1,0 +1,4 @@
+{
+  "function": "minecraft:set_nbt",
+  "tag": "{Charged:0b,ChargedProjectiles:[]}"
+}

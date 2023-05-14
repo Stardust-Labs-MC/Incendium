@@ -1,0 +1,41 @@
+{
+	"feature": "minecraft:basalt_blobs",
+	"placement": [
+		{
+			"type": "count",
+			"count": 170
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 0
+				},
+				"max_inclusive": {
+					"absolute": 255
+				}
+			}
+		},
+		    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "blocks": [
+          "minecraft:netherrack"
+        ]
+      }
+    },
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

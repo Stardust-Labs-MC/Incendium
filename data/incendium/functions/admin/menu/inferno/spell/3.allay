@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Hovering Inferno (Spells 3/7) \]](bold, #FF3F0D)
+[→](bold, gold) [Shield Lasers: Half](#E85302, run="/function incendium:hovering_inferno/spell/shield_lasers/half/main")
+[→](bold, gold) [Shield Lasers: All](#FF870F, run="/function incendium:hovering_inferno/spell/shield_lasers/all/main")
+
+[→](bold, gold) [Shield Lasers: Random](#E85302, run="/function incendium:hovering_inferno/spell/shield_lasers/random")
+[→](bold, gold) [Shield Lasers: Clear](#FF870F, run="/function incendium:hovering_inferno/spell/shield_lasers/clear")
+
+
+[← Back](bold, #FF3F0D, run="/function incendium:admin/menu/inferno/spell/2")  [|](bold, gray)  [Next →](bold, #FF3F0D, run="/function incendium:admin/menu/inferno/spell/4")

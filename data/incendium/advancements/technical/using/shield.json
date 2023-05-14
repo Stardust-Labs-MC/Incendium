@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ]
+        }
+      }
+    },
+    "log_spam_fixer": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

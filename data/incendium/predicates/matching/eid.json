@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:score",
+    "target": "this",
+    "score": "in.eid"
+  },
+  "range": {
+    "min": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "$eid"
+      },
+      "score": "in.dummy"
+    },
+    "max": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "$eid"
+      },
+      "score": "in.dummy"
+    }
+  }
+}

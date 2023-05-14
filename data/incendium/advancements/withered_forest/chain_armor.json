@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "chainmail_chestplate",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": {
+      "translate":"incendium.advancement.withered_forest.chain_armor.title","fallback":"Ghostbuster"
+    },
+    "description": {
+      "translate":"incendium.advancement.withered_forest.chain_armor.desc","fallback":"Put on some chain armor and use it to dispel a restless spirit"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:withered_forest/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

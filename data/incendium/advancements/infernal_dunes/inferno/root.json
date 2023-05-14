@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lectern",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.root.title","fallback":"Beyond the Embers"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.root.desc","fallback":"The shrine... demands a sacrifice"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "incendium:infernal_altar"
+          }
+        }
+      }
+    }
+  }
+}

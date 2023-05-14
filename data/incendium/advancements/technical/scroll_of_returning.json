@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:map"
+          ],
+          "nbt": "{incendium:{item:'scroll_of_returning'}}"
+        }
+      }
+    },
+    "log_spam_fixer": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "incendium:item/patron/scroll_of_returning/use"
+  }
+}

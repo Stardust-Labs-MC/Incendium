@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "red_sand"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.root.title","fallback":"Darude - Firestorm"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.root.desc","fallback":"Experience the blazing heat of the Infernal Dunes"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:root",
+  "criteria": {
+    "incendium:infernal_dunes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "incendium:infernal_dunes"
+          }
+        }
+      }
+    }
+  }
+}

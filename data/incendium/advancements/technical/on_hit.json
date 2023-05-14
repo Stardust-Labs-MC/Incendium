@@ -1,0 +1,603 @@
+{
+  "parent": "incendium:technical/root",
+  "criteria": {
+    "target": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "#incendium:mobs"
+        },
+        "damage": {
+          "type": {
+            "is_magic": false
+          }
+        }
+      }
+    },
+    "not_target": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#incendium:mobs"
+              }
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "is_magic": false
+          }
+        }
+      }
+    },
+    "direct": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:player"
+            },
+            "is_magic": false
+          }
+        }
+      }
+    },
+    "trailblazer": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "#minecraft:arrows",
+              "nbt": "{Tags:[\"in.trailblazer\"]}"
+            }
+          }
+        }
+      }
+    },
+    "bit0": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_0\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit1": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_1\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit2": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_2\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit3": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_3\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit4": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_4\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit5": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_5\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit6": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_6\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit7": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_7\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit8": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_8\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit9": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_9\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit10": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_10\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit11": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_11\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit12": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_12\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit13": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_13\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bit14": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"in.eid_14\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "!bit0": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_0\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit1": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_1\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit2": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_2\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit3": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_3\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit4": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_4\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit5": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_5\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit6": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_6\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit7": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_7\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit8": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_8\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit9": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_9\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit10": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_10\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit11": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_11\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit12": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_12\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit13": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_13\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "!bit14": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"in.eid_14\"]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "target",
+      "not_target",
+      "direct",
+      "trailblazer"
+    ],
+    [
+      "bit0",
+      "!bit0"
+    ],
+    [
+      "bit1",
+      "!bit1"
+    ],
+    [
+      "bit2",
+      "!bit2"
+    ],
+    [
+      "bit3",
+      "!bit3"
+    ],
+    [
+      "bit4",
+      "!bit4"
+    ],
+    [
+      "bit5",
+      "!bit5"
+    ],
+    [
+      "bit6",
+      "!bit6"
+    ],
+    [
+      "bit7",
+      "!bit7"
+    ],
+    [
+      "bit8",
+      "!bit8"
+    ],
+    [
+      "bit9",
+      "!bit9"
+    ],
+    [
+      "bit10",
+      "!bit10"
+    ],
+    [
+      "bit11",
+      "!bit11"
+    ],
+    [
+      "bit12",
+      "!bit12"
+    ],
+    [
+      "bit13",
+      "!bit13"
+    ],
+    [
+      "bit14",
+      "!bit14"
+    ]
+  ],
+  "rewards": {
+    "function": "incendium:player/event/on_hit"
+  }
+}

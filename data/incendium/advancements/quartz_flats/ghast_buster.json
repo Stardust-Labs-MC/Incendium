@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ghast_tear"
+    },
+    "title": {
+      "translate":"incendium.advancement.quartz_flats.ghast_buster.title","fallback":"Ghast Buster"
+    },
+    "description": {
+      "translate":"incendium.advancement.quartz_flats.ghast_buster.desc","fallback":"Kill a ghast on its home turf above the frozen lava seas"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:quartz_flats/floor_is_tears",
+  "criteria": {
+    "kill_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": 32
+            },
+            "biome": "incendium:quartz_flats"
+          }
+        },
+        "entity": {
+          "type": "minecraft:ghast"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "incendium:pipeline/base/junk",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "incendium:pipeline/base/common",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "incendium:pipeline/base/uncommon",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "incendium:pipeline/base/rare",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

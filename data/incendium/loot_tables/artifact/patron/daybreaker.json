@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "base",
+                  "amount": -2.4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "d",
+                  "amount": {
+                    "min": 0.25,
+                    "max": 0.4
+                  },
+                  "operation": "multiply_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "d",
+                  "amount": {
+                    "min": 5.5,
+                    "max": 7
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate":"incendium.item.daybreaker.desc1","fallback":"Has a chance to drop gold",
+                  "color": "#cc9900",
+                  "italic": true
+                },
+                {
+                  "translate":"incendium.item.daybreaker.desc2","fallback":"when killing any mob",
+                  "color": "#cc9900",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium.system.patron_item","fallback":"Patron Item",
+                  "color": "#333333",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium","fallback":"Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate":"incendium.item.daybreaker.name","fallback":"Daybreaker",
+                "color": "#ffcc00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1450000,incendium:{item:'daybreaker'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

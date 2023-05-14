@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate":"incendium.item.undying_elixer.name","fallback":"Elixir of Undying",
+                "color": "#ffcc00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:10,Amplifier:1b,Duration:1200},{Id:11,Amplifier:4b,Duration:600},{Id:22,Amplifier:3b,Duration:4800}],CustomPotionColor:14679821}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate":"incendium.item.miners_ale.name","fallback":"Miner's Ale",
+                "color": "#ff4e21",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:3,Amplifier:2b,Duration:18000}],CustomPotionColor:16735265}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Suspicious Brew",
+                "color": "#8957ff",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:2,Amplifier:0b,Duration:4000},{Id:5,Amplifier:3b,Duration:1500},{Id:9,Amplifier:0b,Duration:200},{Id:11,Amplifier:1b,Duration:1000}],CustomPotionColor:12162815} "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
