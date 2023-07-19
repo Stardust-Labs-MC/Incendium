@@ -1,5 +1,6 @@
 {
-    "type": "minecraft:smithing",
+    "type": "minecraft:smithing_transform",
+    "template": [],
     "base": {
         "item": "minecraft:jigsaw"
     },
