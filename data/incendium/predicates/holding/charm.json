@@ -1,0 +1,39 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "item": "netherite_scrap",
+            "enchantments": [
+              {
+                "id": "unbreaking",
+                "lvl": 10
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "item": "netherite_scrap",
+            "enchantments": [
+              {
+                "id": "unbreaking",
+                "lvl": 10
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

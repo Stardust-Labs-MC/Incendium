@@ -1,0 +1,1 @@
+loot give @s loot incendium:artifact/patron/scouts_battle_helm

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [],
+    "default": {
+      "feature": "minecraft:patch_red_mushroom",
+      "placement": []
+    }
+  }
+}

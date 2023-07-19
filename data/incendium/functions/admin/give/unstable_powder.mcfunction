@@ -1,0 +1,1 @@
+loot give @s loot incendium:artifact/tool/unstable_powder

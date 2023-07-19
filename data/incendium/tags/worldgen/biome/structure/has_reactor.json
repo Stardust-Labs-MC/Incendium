@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "incendium:volcanic_deltas",
+    "minecraft:basalt_deltas",
+    "incendium:toxic_heap"
+  ]
+}

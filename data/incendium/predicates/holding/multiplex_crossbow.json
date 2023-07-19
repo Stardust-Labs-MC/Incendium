@@ -1,0 +1,27 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "nbt": "{incendium:{item:'multiplex_crossbow'}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "nbt": "{incendium:{item:'multiplex_crossbow'}}"
+          }
+        }
+      }
+    }
+  ]
+}

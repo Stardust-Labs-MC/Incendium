@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "hopper"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.pipeline.root.title","fallback":"Pipe Dream"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.pipeline.root.desc","fallback":"Enter a pipeline, but beware the dangerous sentry blazes"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "incendium:pipeline"
+          }
+        }
+      }
+    }
+  }
+}

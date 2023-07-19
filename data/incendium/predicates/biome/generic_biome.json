@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "biome": "minecraft:nether_wastes"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  ]
+}

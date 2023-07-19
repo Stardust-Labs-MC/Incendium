@@ -1,0 +1,11 @@
+{
+  "parent": "incendium:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player"
+    },
+    "log_spam_fixer": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

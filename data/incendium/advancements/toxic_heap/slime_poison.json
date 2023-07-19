@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "potion",
+      "nbt": "{Potion:\"minecraft:long_poison\"}"
+    },
+    "title": {
+      "translate":"incendium.advancement.toxic_heap.slime_poison.title","fallback":"Toxic Personality"
+    },
+    "description": {
+      "translate":"incendium.advancement.toxic_heap.slime_poison.desc","fallback":"Get poisoned by a toxic slime"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:toxic_heap/root",
+  "criteria": {
+    "poison": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "incendium:toxic_heap"
+          }
+        },
+        "effects": {
+          "poison": {}
+        }
+      }
+    }
+  }
+}

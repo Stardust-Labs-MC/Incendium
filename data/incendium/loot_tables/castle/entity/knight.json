@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.06
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:gold_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:iron_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

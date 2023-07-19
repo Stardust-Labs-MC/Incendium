@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Hovering Inferno (Spells 5/7) \]](bold, #FF3F0D)
+[→](bold, gold) [Firework: Direct](#E85302, run="/function incendium:hovering_inferno/spell/firework/direct/main")
+[→](bold, gold) [Firework: Direct Alt](#FF870F, run="/function incendium:hovering_inferno/spell/firework/direct_alt/main")
+[→](bold, gold) [Firework: Spread](#E85302, run="/function incendium:hovering_inferno/spell/firework/spread/main")
+
+[→](bold, gold) [Firework: Clear](#FF870F, run="/function incendium:hovering_inferno/spell/firework/clear")
+
+
+[← Back](bold, #FF3F0D, run="/function incendium:admin/menu/inferno/spell/4")  [|](bold, gray)  [Next →](bold, #FF3F0D, run="/function incendium:admin/menu/inferno/spell/6")

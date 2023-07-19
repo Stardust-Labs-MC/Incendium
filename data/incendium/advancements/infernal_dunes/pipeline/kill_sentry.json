@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "player_head",
+      "nbt": "{SkullOwner:'{Id:[I;2095810738,2136949657,-1413910424,622570141],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==\"}]}}'}"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.pipeline.kill_sentry.title","fallback":"Ceci n'est pas un blaze"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.pipeline.kill_sentry.desc","fallback":"Extinguish a Pipeline Sentry"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "incendium:infernal_dunes/pipeline/unlimited_power",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze",
+          "nbt": "{Tags:[\"in.sentry\"]}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+[\[ Incendium Menu: Give (3/5) \]](bold, #FF3F0D)
+[→](bold, gold) [Scarlet Dagger](#E85302, run="/function incendium:admin/give/scarlet_dagger")
+[→](bold, gold) [Scouts Battle Helm](#FF870F, run="/function incendium:admin/give/scouts_battle_helm")
+[→](bold, gold) [Sentrys Wrath](#E85302, run="/function incendium:admin/give/sentrys_wrath")
+[→](bold, gold) [Torch of Lunacy](#FF870F, run="/function incendium:admin/give/torch_of_lunacy")
+[→](bold, gold) [Trailblazer](#E85302, run="/function incendium:admin/give/trailblazer")
+[→](bold, gold) [Unstable Powder](#FF870F, run="/function incendium:admin/give/unstable_powder")
+[→](bold, gold) [Voltaic Trident](#E85302, run="/function incendium:admin/give/voltaic_trident")
+[← Back](bold, #FF3F0D, run="/function incendium:admin/menu/give/2")  [|](bold, gray)  [Next →](bold, #FF3F0D, run="/function incendium:admin/menu/give/4")

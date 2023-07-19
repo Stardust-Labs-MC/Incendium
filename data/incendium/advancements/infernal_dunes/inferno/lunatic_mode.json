@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "white_banner",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.lunatic_mode.title","fallback":"Lunatic Mode"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.lunatic_mode.desc","fallback":"Survive the Inferno's final phase with no armor"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "incendium:infernal_dunes/inferno/run",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

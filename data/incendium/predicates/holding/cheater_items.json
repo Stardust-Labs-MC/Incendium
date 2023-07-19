@@ -1,0 +1,27 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "tag": "incendium:cheater_items"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "tag": "incendium:cheater_items"
+          }
+        }
+      }
+    }
+  ]
+}

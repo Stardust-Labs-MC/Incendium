@@ -1,0 +1,15 @@
+{
+    "name": "incendium:generic",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "incendium:sanctum/mobs/cultist",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

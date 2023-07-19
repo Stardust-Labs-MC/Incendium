@@ -1,0 +1,10 @@
+execute if score #hit in.fire_laser matches 0 positioned ~-0.05 ~-0.05 ~-0.05 as @e[type=#incendium:mobs,tag=!laser,dx=0,sort=nearest] positioned ~-0.85 ~-0.85 ~-0.85 if entity @s[dx=0] run function incendium:entity/sentry/ray/hit_entity
+scoreboard players add #distance2 in.fire_laser 1
+particle minecraft:soul_fire_flame ~ ~ ~ 0.01 0.01 0.01 0.0 1 force
+execute positioned ^ ^ ^0.2 unless block ~ ~ ~ #incendium:airs run particle minecraft:dust 0 1 1 2.25 ~ ~ ~ 0 0 0 0.03 4 force
+execute if score #hit in.fire_laser matches 0 if predicate incendium:random/0_4 if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 facing entity @e[type=#incendium:mobs,tag=!laser,distance=..10,sort=nearest,limit=1] eyes if block ~ ~ ~ #incendium:airs run function incendium:entity/sentry/ray/branch
+execute if score #hit in.fire_laser matches 0 if predicate incendium:random/0_4 if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~-15 ~ if block ~ ~ ~ #incendium:airs run function incendium:entity/sentry/ray/branch
+execute if score #hit in.fire_laser matches 0 if predicate incendium:random/0_4 if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~15 ~ if block ~ ~ ~ #incendium:airs run function incendium:entity/sentry/ray/branch
+execute if score #hit in.fire_laser matches 0 if predicate incendium:random/0_4 if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~ ~-15 if block ~ ~ ~ #incendium:airs run function incendium:entity/sentry/ray/branch
+execute if score #hit in.fire_laser matches 0 if predicate incendium:random/0_4 if score #distance2 in.fire_laser matches 0..1750 positioned ^ ^ ^0.2 rotated ~ ~15 if block ~ ~ ~ #incendium:airs run function incendium:entity/sentry/ray/branch
+execute if score #hit in.fire_laser matches 0 if predicate incendium:random/98 if score #distance2 in.fire_laser matches ..1750 positioned ^ ^ ^0.2 rotated ~ ~ if block ~ ~ ~ #incendium:airs run function incendium:entity/sentry/ray/branch_straight

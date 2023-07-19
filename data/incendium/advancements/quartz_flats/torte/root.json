@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "title": {
+      "translate":"incendium.advancement.quartz_flats.torte.root.title","fallback":"You Fool!"
+    },
+    "description": {
+      "translate":"incendium.advancement.quartz_flats.torte.root.desc","fallback":"Kill the skeleton chef Torte and loot his kitchen"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:quartz_flats/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:skeleton",
+              "nbt": "{Tags:[\"in.torte\"]}",
+              "location": {
+                "structure": "incendium:quartz_kitchen"
+              },
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:cake"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

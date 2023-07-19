@@ -1,0 +1,14 @@
+{
+  "parent": "incendium:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed"
+    },
+    "log_spam_fixer": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "incendium:player/event/on_inventory_change"
+  }
+}

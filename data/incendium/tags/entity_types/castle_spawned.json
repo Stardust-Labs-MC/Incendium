@@ -1,0 +1,11 @@
+{
+  "description": "All castle spawned entities",
+  "values": [
+    "minecraft:area_effect_cloud",
+    "#minecraft:arrows",
+    "minecraft:armor_stand",
+    "minecraft:firework_rocket",
+    "minecraft:fireball",
+    "minecraft:small_fireball"
+  ]
+}
