@@ -1,0 +1,29 @@
+{
+    "incendium:abandoned_tower": {
+        "item": "minecraft:ghast_tear"
+    },
+    "incendium:forbidden_castle": {
+        "item": "minecraft:gold_block"
+    },
+    "incendium:infernal_altar": {
+        "item": "minecraft:lectern"
+    },
+    "incendium:nether_reactor": {
+        "item": "minecraft:tnt"
+    },
+    "incendium:piglin_village": {
+        "item": "minecraft:crimson_stairs"
+    },
+    "incendium:pipeline": {
+        "item": "minecraft:soul_torch"
+    },
+    "incendium:quartz_kitchen": {
+        "item": "minecraft:cake"
+    },
+    "incendium:ruined_lab": {
+        "item": "minecraft:piston"
+    },
+    "incendium:sanctum": {
+        "item": "minecraft:quartz_bricks"
+    }
+}

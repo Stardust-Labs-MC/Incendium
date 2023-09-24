@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "incendium:infernal_dunes",
+        "incendium:quartz_flats",
+        "incendium:volcanic_deltas",
+        "incendium:withered_forest"
+    ]
+}

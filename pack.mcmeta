@@ -1,6 +1,31 @@
 {
-	"pack": {
-		"pack_format": 15,
-		"description": "Incendium - Nether Expansion (1.20)"
-	}
+    "pack": {
+        "pack_format": 15,
+        "supported_formats": [
+            15,
+            18
+        ],
+        "description": [
+            {
+                "text": "Incendium",
+                "color": "#e27a1f"
+            },
+            {
+                "text": " - Nether Expansion\nCreated by ",
+                "color": "gray"
+            },
+            {
+                "text": "Stardust Labs",
+                "color": "#683edd"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": 18,
+                "directory": "1-20-2-overlay"
+            }
+        ]
+    }
 }

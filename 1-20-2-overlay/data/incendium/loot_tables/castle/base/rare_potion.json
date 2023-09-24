@@ -1,0 +1,67 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate":"incendium.item.undying_elixer.name","fallback":"Elixir of Undying",
+                  "color": "#ffcc00",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{custom_potion_effects:[{id:\"minecraft:regeneration\",amplifier:1b,duration:1200},{id:\"minecraft:resistance\",amplifier:4b,duration:600},{id:\"minecraft:absorption\",amplifier:3b,duration:4800}],CustomPotionColor:14679821}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate":"incendium.item.miners_ale.name","fallback":"Miner's Ale",
+                  "color": "#ff4e21",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{custom_potion_effects:[{id:\"minecraft:haste\",amplifier:2b,duration:18000}],CustomPotionColor:16735265}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "Suspicious Brew",
+                  "color": "#8957ff",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:0b,duration:4000},{id:\"minecraft:strength\",amplifier:3b,duration:1500},{id:\"minecraft:nausea\",amplifier:0b,duration:200},{id:\"minecraft:resistance\",amplifier:1b,duration:1000}],CustomPotionColor:12162815} "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
