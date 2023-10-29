@@ -18,7 +18,6 @@ execute unless score @s in.eid matches 0..32767 run function incendium:technical
 
 # are scores set?
 execute unless entity @s[scores={in.cd_shield=-1..}] run scoreboard players add @s in.cd_shield 0
-execute unless entity @s[scores={in.cd_prism=-1..}] run scoreboard players add @s in.cd_prism 0
 execute unless entity @s[scores={in.cd_charm=-1..}] run scoreboard players add @s in.cd_charm 0
 execute unless entity @s[scores={in.cd_corrupt=-1..}] run scoreboard players add @s in.cd_corrupt 0
 
@@ -91,14 +90,9 @@ tag @s[tag=in.mainhand_scroll] add in.scroll
 
 tag @s[tag=!in.offhand_scroll,tag=!in.mainhand_scroll] remove in.scroll
 
-# effect clearing
-effect clear @s[scores={in.cd_prism=1..}] wither
-effect clear @s[scores={in.cd_prism=1..}] poison
-
 # decr scoreboards
 scoreboard players remove @s[scores={in.cd_shield=1..}] in.cd_shield 1
 scoreboard players remove @s[scores={in.cd_corrupt=1..}] in.cd_corrupt 1
-scoreboard players remove @s[scores={in.cd_prism=1..}] in.cd_prism 1
 scoreboard players remove @s[scores={in.cd_charm=1..}] in.cd_charm 1
 scoreboard players remove @s[scores={in.cd_weapon=1..}] in.cd_weapon 1
 scoreboard players remove @s[scores={in.cd_wrath=1..}] in.cd_wrath 1

@@ -14,9 +14,9 @@
     "salt": 30084232,
     "exclusion_zone": {
       "other_set": "incendium:greater_structures",
-      "chunk_count": 16
+      "chunk_count": 8
     },
-    "spacing": 20,
+    "spacing": 16,
     "separation": 8
   }
 }

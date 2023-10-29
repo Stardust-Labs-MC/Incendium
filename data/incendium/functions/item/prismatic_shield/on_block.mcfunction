@@ -3,5 +3,5 @@
 
 tag @s add in.self
 execute positioned ~ ~1.25 ~ run function incendium:item/prismatic_shield/ray/start
-scoreboard players set @s in.cd_shield 15
+scoreboard players set @s in.cd_shield 120
 tag @s remove in.self

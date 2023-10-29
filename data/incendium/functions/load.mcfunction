@@ -44,7 +44,6 @@ scoreboard objectives add in.castle_id dummy
 scoreboard objectives add in.retreating dummy
 
 scoreboard objectives add in.cd_shield dummy
-scoreboard objectives add in.cd_prism dummy
 scoreboard objectives add in.cd_charm dummy
 scoreboard objectives add in.cd_corrupt dummy
 scoreboard objectives add in.cur_spell dummy

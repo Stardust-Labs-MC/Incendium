@@ -1,13 +1,12 @@
 # from: player/on_block
 # @s: player being hit
 
-summon area_effect_cloud ~ ~0.25 ~ {id:"minecraft:area_effect_cloud",Particle:"large_smoke",ReapplicationDelay:200,Radius:0.5f,RadiusPerTick:0.8f,Duration:10,Color:0,Effects:[{Id:20b,Amplifier:2b,Duration:100,ShowParticles:1b}],Tags:["in.necrotic_wither"]}
+summon area_effect_cloud ~ ~0.25 ~ {id:"minecraft:area_effect_cloud",Particle:"large_smoke",ReapplicationDelay:200,Radius:0.5f,RadiusPerTick:0.8f,Duration:10,Color:0,Effects:[{Id:20,Amplifier:2b,Duration:100,ShowParticles:1b}],Tags:["in.necrotic_wither"]}
 
 execute at @e[type=#incendium:mobs,tag=!in.immune,distance=1..7,limit=8,sort=nearest,predicate=incendium:random/30] run summon evoker_fangs ~ ~ ~ {Warmup:1,Glowing:1b,Tags:["in.necrotic_fangs"]}
 execute as @e[type=evoker_fangs,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[tag=in.self] eyes
 
-scoreboard players set @s in.cd_prism 60
-scoreboard players set @s in.cd_shield 60
+scoreboard players set @s in.cd_shield 120
 
 # We exclude in.checked here since these entities will automatically get this tag in the next tick
 #  This means repeated shield blocking won't constantly tick the same entities again!

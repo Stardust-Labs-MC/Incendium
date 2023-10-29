@@ -3,7 +3,6 @@
 
 summon area_effect_cloud ~ ~0.5 ~ {id:"minecraft:area_effect_cloud",Particle:"dust 0 1 0 2",ReapplicationDelay:200,Radius:0.5f,RadiusPerTick:0.8f,Duration:8,effects:[{id:"minecraft:poison",amplifier:1b,duration:90},{id:"minecraft:poison",amplifier:0b,duration:120}],Tags:["in.radiation"]}
 
-scoreboard players set @s in.cd_prism 120
 scoreboard players set @s in.cd_shield 120
 
 data modify entity @e[type=area_effect_cloud,distance=..4,limit=1,tag=in.radiation,tag=!in.checked] Owner set from entity @p[tag=in.valid_player] UUID

@@ -12,4 +12,5 @@ particle minecraft:dust 0.5 0.5 0.5 1 ^0 ^0.5 ^-0.25 0.25 0.25 0.25 0.025 4 norm
 particle minecraft:dust 0 0.969 1 1 ^-0.2 ^0.8 ^0.1 0 0 0 0 1 force
 particle minecraft:dust 0 1 0.8 1 ^0.2 ^0.8 ^0.1 0 0 0 0 1 force
 
-execute if score @s in.lifetime matches ..0 run tp @s ~ ~-10 ~
+execute if score @s in.lifetime matches ..0 run tp @s ~ -20 ~
+execute if score @s in.lifetime matches ..0 run kill @s
