@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{incendium:{item:'ghastling_egg'},Enchantments:[{}],EntityTag:{id:\"minecraft:allay\",Tags:[\"in.unborn_ghast\"],PersistenceRequired:1b,NoAI:1b,Silent:1,ArmorDropChances:[0.085F,0.085F,0.085F,0.085F],ArmorItems:[{},{},{},{}],HandItems:[{id:\"minecraft:air\"}],ActiveEffects:[{Id:14,Amplifier:0,Duration:2147483647,ShowParticles:0b}]}}"
+              "tag": "{incendium:{item:'ghastling_egg'},Enchantments:[{}],EntityTag:{id:\"minecraft:allay\",Tags:[\"in.unborn_ghast\"],PersistenceRequired:1b,NoAI:1b,Silent:1,ArmorDropChances:[0.085F,0.085F,0.085F,0.085F],ArmorItems:[{},{},{},{}],HandItems:[{id:\"minecraft:air\"}],ActiveEffects:[{Id:14,Amplifier:0,Duration:2147483647,ShowParticles:0b}],active_effects:[{id:\"minecraft:invisibility\",amplifier:0,duration:2147483647,show_particles:0b}]}}"
             },
             {
               "function": "minecraft:set_name",

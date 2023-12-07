@@ -8,6 +8,7 @@ attribute @s generic.movement_speed base set 1.1
 attribute @s generic.max_health base set 1
 
 effect give @s fire_resistance 999999 0 true
+effect give @s slow_falling 999999 0 true
 effect give @s jump_boost 999999 3 true
 effect give @s speed 999999 3 true
 effect give @s resistance 999999 3 true

@@ -34,7 +34,6 @@ execute store result storage incendium:temp arrow.damage double 0.01 run scorebo
 data modify storage incendium:temp arrow.PierceLevel set value 5b
 data modify storage incendium:temp arrow.NoGravity set value 1b
 data modify storage incendium:temp arrow.Fire set value 1000s
-# data modify storage incendium:temp arrow.CustomPotionEffects append value {id:13b, Duration: 3, Amplifier:127, Ambient:1b, ShowParticles:0b, ShowIcon:0b}
 data modify entity @s {} merge from storage incendium:temp arrow
 
 playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 2 0.1

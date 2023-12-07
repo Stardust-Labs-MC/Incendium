@@ -40,7 +40,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionColor:1517120,HideFlags:32,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:7,Amplifier:1},{Id:7,Amplifier:28},{Id:33,Amplifier:1,Duration:2147483647},{Id:14,Amplifier:1,Duration:2147483647},{Id:2,Amplifier:9,Duration:2147483647},{Id:4,Amplifier:9,Duration:2147483647},{Id:9,Duration:2147483647},{Id:15,Duration:2147483647},{Id:17,Amplifier:19,Duration:2147483647},{Id:18,Amplifier:9,Duration:2147483647},{Id:19,Amplifier:2,Duration:2147483647},{Id:20,Amplifier:4,Duration:2147483647},{Id:24,Duration:2147483647},{Id:25,Amplifier:49,Duration:2147483647},{Id:27,Amplifier:99,Duration:2147483647},{Id:31,Amplifier:5,Duration:1200}],display:{Name:'[{\"text\":\"Death Potion\",\"italic\":false,\"color\":\"dark_red\"}]'}}\n\n"
+              "tag": "{CustomPotionColor:1517120,HideFlags:32,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:7,Amplifier:1},{Id:7,Amplifier:28},{Id:33,Amplifier:1,Duration:2147483647},{Id:14,Amplifier:1,Duration:2147483647},{Id:2,Amplifier:9,Duration:2147483647},{Id:4,Amplifier:9,Duration:2147483647},{Id:9,Duration:2147483647},{Id:15,Duration:2147483647},{Id:17,Amplifier:19,Duration:2147483647},{Id:18,Amplifier:9,Duration:2147483647},{Id:19,Amplifier:2,Duration:2147483647},{Id:20,Amplifier:4,Duration:2147483647},{Id:24,Duration:2147483647},{Id:25,Amplifier:49,Duration:2147483647},{Id:27,Amplifier:99,Duration:2147483647},{Id:31,Amplifier:5,Duration:1200}],custom_potion_effects:[{id:\"minecraft:instant_damage\",amplifier:1},{id:\"minecraft:darkness\",amplifier:1,duration:2147483647},{id:\"minecraft:invisibility\",amplifier:1,duration:2147483647},{id:\"minecraft:slowness\",amplifier:9,duration:2147483647},{id:\"minecraft:mining_fatigue\",amplifier:9,duration:2147483647},{id:\"minecraft:nausea\",duration:2147483647},{id:\"minecraft:blindness\",duration:2147483647},{id:\"minecraft:hunger\",amplifier:19,duration:2147483647},{id:\"minecraft:weakness\",amplifier:9,duration:2147483647},{id:\"minecraft:poison\",amplifier:2,duration:2147483647},{id:\"minecraft:wither\",amplifier:4,duration:2147483647},{id:\"minecraft:glowing\",duration:2147483647},{id:\"minecraft:levitation\",amplifier:49,duration:2147483647},{id:\"minecraft:unluck\",amplifier:99,duration:2147483647},{id:\"minecraft:bad_omen\",amplifier:5,duration:1200}],display:{Name:'[{\"text\":\"Death Potion\",\"italic\":false,\"color\":\"dark_red\"}]'}}\n\n"
             }
           ]
         },
@@ -51,7 +51,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionColor:16514882,HideFlags:32,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:24,Duration:100000000}],display:{Lore:['[{\"text\":\"Glowing (∞)\",\"italic\":false,\"color\":\"red\"}]'],Name:'[{\"text\":\"Splash Potion of Eternal Glowing\",\"italic\":false}]'}}"
+              "tag": "{CustomPotionColor:16514882,HideFlags:32,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:24,Duration:100000000}],custom_potion_effects:[{id:\"minecraft:glowing\",duration:100000000}],display:{Lore:['[{\"text\":\"Glowing (∞)\",\"italic\":false,\"color\":\"red\"}]'],Name:'[{\"text\":\"Splash Potion of Eternal Glowing\",\"italic\":false}]'}}"
             }
           ]
         },
@@ -62,7 +62,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:424462,CustomPotionEffects:[{Id:31,Duration:1200}],display:{Name:'[{\"text\":\"Potion of Bad Omen\",\"italic\":false}]'}}"
+              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:424462,CustomPotionEffects:[{Id:31,Duration:1200}],custom_potion_effects:[{id:\"minecraft:bad_omen\",duration:1200}],display:{Name:'[{\"text\":\"Potion of Bad Omen\",\"italic\":false}]'}}"
             }
           ]
         },
