@@ -80,7 +80,7 @@ scoreboard objectives add in.toxic_count dummy
 scoreboard objectives add in.lifetime dummy
 
 # scroll of returning
-summon marker ~ ~ ~ {Tags:["in.world_spawn"]}
+execute unless entity @e[type=minecraft:marker,tag=in.world_spawn] run summon marker ~ ~ ~ {Tags:["in.world_spawn"]}
 
 # we keep this separate incase u want to update the song, etc
 function incendium:border_of_life/load
